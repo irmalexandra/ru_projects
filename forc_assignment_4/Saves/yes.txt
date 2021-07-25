@@ -1,0 +1,143 @@
+15
+Name: InvestaNurse
+Investigator
+Nurse
+Life: 5
+Strength: 4
+Intelligence: 6
+Gender: Male
+Fear: 2
+Terror: 1
+
+Name: InvestaReporter
+Investigator
+Reporter
+Life: 6
+Strength: 3
+Intelligence: 7
+Gender: Female
+Fear: 1
+Terror: 0
+
+Name: InvestaProfessor
+Investigator
+Professor
+Life: 5
+Strength: 4
+Intelligence: 9
+Gender: Other
+Fear: 8
+Terror: 2
+
+Name: NurseNPC
+Person
+Nurse
+Life: 6
+Strength: 6
+Intelligence: 7
+Gender: Other
+Fear: 7
+
+Name: ReporterNPC
+Person
+Reporter
+Life: 6
+Strength: 3
+Intelligence: 7
+Gender: Male
+Fear: 2
+
+Name: ProfessorNPC
+Person
+Professor
+Life: 5
+Strength: 4
+Intelligence: 8
+Gender: Female
+Fear: 2
+
+Name: Wolf1
+Creature
+Wolf
+Life: 4
+Strength: 6
+Intelligence: 5
+Natural
+Disquiet: 2
+
+Name: Wolf2
+Creature
+Wolf
+Life: 4
+Strength: 6
+Intelligence: 5
+Natural
+Disquiet: 2
+
+Name: Ghoul1
+Creature
+Ghoul
+Life: 4
+Strength: 4
+Intelligence: 2
+Unnatural
+Disquiet: 6
+
+Name: Ghoul2
+Creature
+Ghoul
+Life: 4
+Strength: 4
+Intelligence: 2
+Unnatural
+Disquiet: 6
+
+Name: Ghoul3
+Creature
+Ghoul
+Life: 4
+Strength: 4
+Intelligence: 2
+Unnatural
+Disquiet: 6
+
+Name: Chthonian1
+Eldritch Horror
+Chthonian
+Life: 8
+Strength: 7
+Intelligence: 2
+Unnatural
+Disquiet: 10
+Traumatism: 1
+
+Name: Shoggoth1
+Eldritch Horror
+Shoggoth
+Life: 8
+Strength: 9
+Intelligence: 6
+Unnatural
+Disquiet: 10
+Traumatism: 2
+
+Name: Shoggoth2
+Eldritch Horror
+Shoggoth
+Life: 8
+Strength: 9
+Intelligence: 6
+Unnatural
+Disquiet: 10
+Traumatism: 2
+
+Name: Honey
+Eldritch Horror
+Chthonian
+Life: 8
+Strength: 7
+Intelligence: 2
+Unnatural
+Disquiet: 10
+Traumatism: 1
+

@@ -1,0 +1,1 @@
+g++ -o program.exe Classes/game_handler.cpp Classes/word.cpp Helpers/display_handler.cpp Helpers/file_handler.cpp Helpers/general_helpers.cpp Structs/player.cpp main.cpp -std=c++11

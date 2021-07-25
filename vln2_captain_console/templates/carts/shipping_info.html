@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <!-- LEFT SIDE -->
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1>Shipping information</h1>
+                <hr class="light">
+                <form class="form-group text-left col-xl-9 col-lg-6 col-md-7 col-sm-10 col-xs-12" method="post" id="shipping_form">
+                    {% csrf_token %}
+                    <fieldset>
+                        {% for field in shipping_info_form %}
+                            <br>
+                            <label> {{ field.label_tag }}</label>
+                            {{ field }}
+                            {% for error in field.errors %}
+                              <p class="error">{{ error }}</p>
+                            {% endfor %}
+                        {% endfor %}
+                    </fieldset>
+                </form>
+            <div class="row">
+                <div class="col-auto mr-auto">
+                    <button type="reset" class="btn btn-primary return-button">Back</button></div>
+            </div>
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1>Cart</h1>
+                <hr class="light">
+                <br>
+                <div class="d-flex flex-row flex-wrap justify-content-center">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">name</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col"></th>
+                            <th scope="col">price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <form >
+                            {% for product in products %}
+                                <tr>
+
+                                    <th>
+                                        <h4 class="card-title">{{ product.name }}</h4>
+                                    </th>
+                                    <th>
+                                        <h4>{{ product.quantity }}</h4>
+                                    </th>
+                                    <th>
+                                        {% if product.discount %}
+                                            <h4 class="on-sale-tag">{{ product.discount }}% discount</h4>
+                                        {% endif %}
+                                    </th>
+                                    <th>
+                                        <h4>{{ product.price }}</h4>
+                                    </th>
+                                </tr>
+                            {% endfor %}
+                        </form>
+                        <tr>
+                            <th scope="row">
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                                <h4>Total: {{ price_sum }}kr.</h4>
+                            </th>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-primary" type="submit" form="shipping_form" >Proceed to payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/update_shipping_info.js'%}"></script>
+    <script src="{% static 'js/in_field_placeholder.js' %}"></script>
+    <script src="{% static 'js/back_function.js' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,3 @@
+INSERT INTO public.consoles_console (product_ptr_id, warranty, specifications) VALUES (10, '2020-05-02 13:45:10.000000', 'yes');
+INSERT INTO public.consoles_console (product_ptr_id, warranty, specifications) VALUES (7, '2020-05-03 00:32:21.000000', 'Such a great specifications!');
+INSERT INTO public.consoles_console (product_ptr_id, warranty, specifications) VALUES (1, '2020-05-03 00:22:17.000000', 'Great specifications');

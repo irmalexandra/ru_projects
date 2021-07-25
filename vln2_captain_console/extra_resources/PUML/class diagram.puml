@@ -1,0 +1,107 @@
+@startuml
+
+skinparam stereotypeCBackgroundColor <<UserApp>> Green
+
+class Profile << (M, #FF9922) ProfilesApp>> {
+    -User
+    -address_1
+    -address_2
+    -city
+    -postcode
+    -country
+    -profile_image
+    -reviews
+    -order_history
+    -search_history
+}
+class ProfileUpdateForm << (F, #00CC33) ProfilesApp>> {
+    -new_profile_image
+    -new_username
+    -new_first_name
+    -new_last_name
+    -new_email
+    -new_address_1
+    -new_address_2
+    -new_city
+    -new_postcode
+    -new_country
+    -new_profile_image
+}
+
+class Product << (M, #FF9922) Captain_Console_43App>> {
+    -name
+    -description
+    -quantity
+    -price
+    -release_date
+    -manufacturer
+    -category
+}
+
+class Games << (M, #FF9922) GamesApp>> {
+    -console
+}
+
+class Console << (M, #FF9922) ConsolesApp>> {
+    -Specification
+    -warranty
+}
+
+class Specification << (M, #FF9922) ConsolesApp>> {
+    -dimensions
+    -weight
+    -includes
+    -connectivity
+    -storage_capacity
+}
+
+class Review << (M, #FF9922) Captain_Console_43App>> {
+    -Profile
+    -rating
+    -feedback
+    -datetime
+}
+
+class ProductInCart <<CartApp>> {
+    -Product
+    -product_quantity
+}
+class Cart <<CheckoutApp>> {
+    -ProductInCart_list
+}
+class ShippingInformation << (M, #FF9922) CartApp>> {
+-first_name
+-last_name
+-address_1
+-address_2
+-city
+-postcode
+-country
+}
+class PaymentInformation << (M, #FF9922) CartApp>> {
+-first_name
+-last_name
+-card_number
+-expiration_date
+-cvv
+}
+
+class Order << (M, #FF9922) CartApp>> {
+-datetime
+}
+
+Product -- ProductInCart
+Review "0..*" -- Product
+Review "0..*" -- Profile
+Profile -- "0..*" Order
+ProfileUpdateForm -- Profile
+ProductInCart "1..*" --* Cart
+PaymentInformation -- Profile
+ShippingInformation -- Profile
+PaymentInformation ..|> Order
+ShippingInformation ..|> Order
+Cart -- Order
+Games --|> Product
+Console --|> Product
+Specification ..|> Console
+@enduml

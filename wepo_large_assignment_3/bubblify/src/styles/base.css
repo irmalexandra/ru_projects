@@ -1,0 +1,63 @@
+
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50%
+}
+
+.image-container {
+    width: 50%;
+}
+
+.product-details {
+    width: 50%;
+}
+
+.bundle-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#easter-egg {
+    font-size: 5px;
+}
+
+#easter-egg:hover {
+    font-size: 72px;
+}
+
+#root {
+    justify-content: center;
+}
+
+#app {
+    justify-content: center;
+}
+
+.inputFormContainer {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+.card-body .card {
+    align-items: center;
+}
+
+#order-review{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+#products {
+    width: 100%
+}
+
+#info {
+    width: 100%;
+}

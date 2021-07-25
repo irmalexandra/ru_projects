@@ -1,0 +1,33 @@
+@startuml edit employee info
+hide empty description
+
+[*] -down->  UI_input_employees 
+UI_input_employees -down-> UI_input_search
+UI_input_search -down-> UI_input_by_ssn
+UI_input_by_ssn -down-> UI_input_by_ssn:invalid input
+UI_input_by_ssn -down-> LL_main
+LL_main -down-> LL_employee
+LL_employee -down-> DL_main
+DL_main -down-> DL_employee
+DL_employee -down-> DB 
+DB -down-> DL_employee
+DL_employee -down-> DL_main
+DL_main -down-> LL_employee
+LL_employee -down-> UI_employee
+UI_employee -down-> UI_input_edit_employee
+UI_input_edit_employee -down-> UI_input_home_number
+UI_input_home_number -down-> UI_input_home_number:invalid input
+UI_input_edit_employee -down-> UI_input_mobile_number
+UI_input_mobile_number -down-> UI_input_mobile_number:invalid input
+UI_input_edit_employee -down-> UI_input_email
+UI_input_email -down-> UI_input_email:invalid input
+UI_input_edit_employee -down-> UI_input_title
+UI_input_title -down-> UI_input_title:invalid input
+UI_input_home_number --> UI_input_edit_employee
+UI_input_mobile_number --> UI_input_edit_employee
+UI_input_email --> UI_input_edit_employee
+UI_input_title --> UI_input_edit_employee
+UI_input_edit_employee -down-> LL_employee:employee creation unsuccessful
+DB --> [*]
+
+@enduml

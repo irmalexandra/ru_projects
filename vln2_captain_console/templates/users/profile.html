@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div id="profile-image" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <h2>My profile</h2>
+                <br>
+                {% for key, value in profile_info_dict.items %}
+                    {% if key == "Profile image" %}
+                        {% if value != None %}
+                            <img class="rounded-circle" src={{ value }}>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div id="profile-field" class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <h3>Profile information</h3>
+                <hr class="light float-left">
+                <form>
+                    {% csrf_token %}
+                    <fieldset disabled class="col-xl-12 col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                        {% for key, value in profile_info_dict.items %}
+                            {% if key != "Profile image" %}
+                                <label for="disabledTextInput">{{ key }}:</label>
+                                {% if value != None %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="{{ value }}">
+                                {% else %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="">
+                                {% endif %}
+                                <br>
+                            {% endif %}
+                        {% endfor %}
+                    </fieldset>
+                    <br>
+                </form>
+                <a class="btn btn-primary my-2 edit-button" href="profile/edit">Edit profile</a>
+            </div>
+            <div id="shipping-field" class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <h3>Shipping information</h3>
+                <hr class="light float-left">
+                <form>
+                    {% csrf_token %}
+                    <fieldset disabled class="col-xl-12 col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                        {% for key, value in shipping_info_dict.items %}
+                            {% if key != "Profile image" %}
+                                <label for="disabledTextInput">{{ key }}:</label>
+                                {% if value != None %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="{{ value }}">
+                                {% else %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="">
+                                {% endif %}
+                                <br>
+                            {% endif %}
+                        {% endfor %}
+                    </fieldset>
+                </form>
+                <a class="btn btn-primary my-2 edit-button" href="profile/editshipping">Edit shipping information</a>
+            </div>
+            <div id="payment-field" class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <h3>Payment information</h3>
+                <hr class="light float-left">
+                <form>
+                    {% csrf_token %}
+                    <fieldset disabled class="col-xl-12 col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                        {% for key, value in payment_info_dict.items %}
+                            {% if key != "Profile image" %}
+                                <label for="disabledTextInput">{{ key }}:</label>
+                                {% if value != None %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="{{ value }}">
+                                {% else %}
+                                    <input type="text" id="disabledTextInput" class="form-control" value="">
+                                {% endif %}
+                                <br>
+                            {% endif %}
+                        {% endfor %}
+                    </fieldset>
+                </form>
+                <a class="btn btn-primary my-2 edit-button" href="profile/editpayment">Edit payment information</a>
+            </div>
+            <hr class="light float-left">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 card">
+                    <a id="search-button" class="fun btn btn-outline-secondary collapsed mb-2" href="#"
+                       data-toggle="collapse" data-target="#searches" aria-expanded="false">View recent searches</a>
+                    <div class="collapse" id="searches">
+                        <div class="row text-center">
+                            {% if searches %}
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 search-results">
+                                    {% for search in searches %}
+                                        <div class="padding text-center">
+                                            <a class="search-result" href="#">{{ search.search }}</a>
+                                        </div>
+                                        <hr class="light">
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                <div class="container-fluid justify-content-center text-center">
+                                    <h4 class="float-left">There are no search entries tied to this account</h4>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 card">
+                    <a class="fun btn btn-outline-secondary collapsed" href="#" data-toggle="collapse"
+                       data-target="#order-history" aria-expanded="false">View order history</a>
+                    <div class="collapse " id="order-history">
+                        <div class="row text-center">
+                            {% if order_history %}
+                                <div class="list-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    {% for order_dict in order_history %}
+                                        <div class="card">
+                                        {% for key, value in order_dict.items %}
+                                            <div class="row">
+                                                {% if key == 'order' %}
+                                                    <div class="col-4 order-info">
+                                                        <small>Order placed</small>
+                                                        <p>{{ value.datetime.date }}</p>
+                                                    </div>
+                                                    <div class="col-4 order-info">
+                                                        <small>Total order price</small>
+                                                        <p>{{ value.total_price }} kr.</p>
+                                                    </div>
+                                                     <div class="col-4 order-info">
+                                                        <small>Order # {{ value.id }}</small>
+                                                        <p>
+                                                            <a class="fun collapsed order-details" href="#" data-toggle="collapse"
+
+                                                              data-target="#order-details-{{ value.cartID_id }}"
+                                                              aria-expanded="false">Order details</a>
+                                                        </p>
+                                                    </div>
+                                                {% elif key == 'cart_items' %}
+                                                    {% with value.all|first as item %}
+                                                    <div class="container-fluid collapse justify-content-center text-center item-list" id="order-details-{{ item.cartID_id }}">
+                                                    {% endwith %}
+                                                        {% for item in value %}
+                                                            <hr class="light">
+                                                            <div class="row">
+                                                                <div class="col-3 order-info">
+                                                                    <small>Name</small>
+                                                                    <p><a href="/games/{{ item.productID_id }}" class="order-details">{{ item.productID.name }}</a></p>
+                                                                </div>
+                                                                <div class="col-3 order-info">
+                                                                    <small>Price</small>
+                                                                    <p>{{ item.price }} kr.</p>
+                                                                </div>
+                                                                <div class="col-3 order-info">
+                                                                    <small>Quantity</small>
+                                                                    <p>{{ item.quantity }}</p>
+                                                                </div>
+                                                                <div class="col-3 order-info">
+                                                                    <small>Total Price</small>
+                                                                    <p>{{ item.total_price }} kr.</p>
+                                                                </div>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                {% endif %}
+                                            </div>
+
+                                        {% endfor %}
+                                        </div>
+                                        <hr class="light">
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                <div class="container-fluid justify-content-center text-center">
+                                    <h4 class="float-left">There are no orders tied to this account</h4>
+                                </div>
+
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script src="{% static 'js/use_search_result.js' %}"></script>
+{% endblock %}
+

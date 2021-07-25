@@ -1,0 +1,65 @@
+7
+Name: Holmes
+Investigator
+Detective
+Life: 5
+Strength: 3
+Intelligence: 7
+Gender: Male
+Fear: 6
+Terror: 2
+
+Name: Susan
+Person
+Nurse
+Life: 8
+Strength: 2
+Intelligence: 4
+Gender: Male
+Fear: 3
+
+Name: Wolfie
+Creature
+Wolf
+Life: 3
+Strength: 1
+Intelligence: 0
+Natural
+Disquiet: 1
+
+Name: Wolf2
+Creature
+Wolf
+Life: 2
+Strength: 3
+Intelligence: 0
+Natural
+Disquiet: 1
+
+Name: Wolf3
+Creature
+Wolf
+Life: 3
+Strength: 2
+Intelligence: 0
+Natural
+Disquiet: 1
+
+Name: Wolf4
+Creature
+Wolf
+Life: 3
+Strength: 1
+Intelligence: 1
+Natural
+Disquiet: 1
+
+Name: Ghost1
+Creature
+Ghost
+Life: 4
+Strength: 3
+Intelligence: 6
+Unnatural
+Disquiet: 4
+

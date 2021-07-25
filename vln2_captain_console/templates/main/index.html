@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container-fluid padding text-center">
+    <div id="alert-div-above" class="alert alert-primary add-to-cart-alert text-center alert-div" role="alert"></div>
+      <div class="row padding text-center">
+        <div class="col-12 text-center">
+            <h1>Top Sellers</h1>
+            <hr class="light">
+            <br>
+            <div class="d-flex flex-row flex-wrap justify-content-center">
+                {% for game in top_sellers|slice:":4" %}
+                    {% include 'product_card.html' with product=game %}
+                {% endfor %}
+            </div>
+        </div>
+      </div>
+      <div id="alert-div-middle" class="alert alert-primary add-to-cart-alert text-center alert-div" role="alert"></div>
+
+      <div class="row padding text-center">
+        <div class="col-12 text-center">
+            <h1>Latest Releases</h1>
+            <hr class="light">
+            <br>
+            <div class="d-flex flex-row flex-wrap justify-content-center">
+            {% for game in release_date|slice:":4" %}
+                {% include 'product_card.html' with product=game %}
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="alert-div-below" class="alert alert-primary add-to-cart-alert text-center alert-div" role="alert"></div>
+    {% if recently_viewed %}
+            <div class="row padding text-center">
+                <div class="col-12 text-center">
+                    <h1>Recently Viewed</h1>
+                    <hr class="light">
+                    <br>
+                    <div class="d-flex flex-row flex-wrap justify-content-center">
+                        {% for game in recently_viewed|slice:":4" %}
+                            {% include  'product_card.html' with product=game %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+    {% endif %}
+
+{% endblock %}

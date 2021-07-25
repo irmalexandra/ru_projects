@@ -1,0 +1,14 @@
+diff a/Dimension Ball Z/Assets/Prefabs/Mechanical Components/Ball.prefab b/Dimension Ball Z/Assets/Prefabs/Mechanical Components/Ball.prefab	(rejected hunks)
+@@ -325,6 +325,12 @@
+   m_MinVertexDistance: 0.03
+   m_Autodestruct: 0
+   m_Emitting: 1
++=======
++  thrustPower: 0.0115
++  thrustStaminaCost: 1
++  pointLight: {fileID: 8079811403610568490}
++  paraLight: {fileID: 1039395829604475037}
++>>>>>>> 688b75e903d897515af77da38b92f7361d0c05ec
+ --- !u!1 &7023679635194487522
+ GameObject:
+   m_ObjectHideFlags: 0

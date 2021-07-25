@@ -1,0 +1,66 @@
+7
+Name: Carl
+Investigator
+Inspector
+Life: 5
+Strength: 5
+Intelligence: 6
+Gender:  Male
+Fear: 7
+Terror: 1
+
+Name: John
+Person
+Nurse
+Life: 5
+Strength: 4
+Intelligence: 5
+Gender:  Male
+Fear: 3
+
+Name: Michael
+Person
+Priest
+Life: 6
+Strength: 2
+Intelligence: 7
+Gender: Female
+Fear: 8
+
+Name: Kenny
+Person
+Priest
+Life: 6
+Strength: 1
+Intelligence: 7
+Gender: Male
+Fear: 9
+
+Name: Wolf
+Creature
+Wolf
+Life: 5
+Strength: 6
+Intelligence: 3
+Natural
+Disquiet: 6
+
+Name: Ghost
+Creature
+Ghost
+Life: 5
+Strength: 4
+Intelligence: 7
+Unnatural
+Disquiet: 8
+
+Name: Cthulhu
+Eldritch Horror
+Cthulhu
+Life: 8
+Strength: 9
+Intelligence: 5
+Unnatural
+Disquiet: 10
+Traumatism: 1
+

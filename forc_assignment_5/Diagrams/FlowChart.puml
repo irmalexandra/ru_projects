@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+main_menu: 1. battle_simulator\n2. roster\n3. templates\n4. actions\n5. Quit
+templates: 1. view_templates\n2. create_template\n3. delete_template
+actions: 1. view_actions\n2. create_actions\n3. delete_actions
+roster_menu: 1. view_roster\n2. add_individual\n3. save_roster\n4. load_roster
+create_template_menu: 1. species\n2. role
+add_individual: Enter name of role or species
+create_actions_menu: 1. offensive\n2. defensive
+save_current_roster: Enter name of roster
+load_roster: Enter name of roster
+view_roster: Enter name of individual for details
+view_templates: Enter name of template to view details
+delete_template_menu: Enter name of template
+battle_menu: 1. use_current_roster\n2. load_and_use_other_roster
+
+main_menu -up-> templates
+main_menu -down-> actions
+main_menu -right> roster_menu
+main_menu -left> battle_menu
+
+templates -> create_template_menu
+templates -> view_templates
+templates -> delete_template_menu
+
+actions -> create_actions_menu
+
+roster_menu -> add_individual
+roster_menu -> save_current_roster
+roster_menu -> load_roster
+roster_menu -> view_roster
+
+
+gather_rocks -down-> ...
+...  -down-> profit
+@enduml

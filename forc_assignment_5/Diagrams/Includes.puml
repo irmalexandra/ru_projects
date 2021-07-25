@@ -1,0 +1,97 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class IndividualCreator
+class TemplateCreator
+class Payload
+class Stats
+class DataHandler
+class FileHandler
+class HelperFunctions
+class InputHandler
+class Being
+class Creature
+class EldrithHorrror
+class Investigator
+class Person
+class BaseTemplate
+class Role
+class Species
+class IndividualCreator
+class Templates
+class Roster
+
+IndividualCreator ---> Investigator
+IndividualCreator ---> EldrithHorrror
+IndividualCreator ---> Creature
+IndividualCreator ---> Person
+IndividualCreator ---> Being
+IndividualCreator ---> HelperFunctions
+IndividualCreator ---> Species
+IndividualCreator ---> Role
+TemplateCreator ---> Role
+TemplateCreator ---> Species
+TemplateCreator ---> BaseTemplate
+TemplateCreator ---> HelperFunctions
+TemplateCreator ---> Stats
+
+Species ---> BaseTemplate
+Role ---> BaseTemplate
+BaseTemplate ---> Stats
+
+Person ---> HelperFunctions
+Person ---> Role
+Investigator ---> Role
+EldritchHorror ---> Species
+Creature ---> Species
+Creature ---> HelperFunctions
+Being ---> BaseTemplate
+
+
+Payload ---> Investigator
+Payload ---> Person
+Payload ---> Creature
+Payload ---> EldrithHorrror
+Payload ---> Species
+Payload ---> Role
+Payload ---> DataHandler
+
+DataHandler ---> Investigator
+DataHandler ---> Person
+DataHandler ---> Creature
+DataHandler ---> EldrithHorrror
+DataHandler ---> Role
+DataHandler ---> Species
+
+FileHandler ---> BaseTemplate
+FileHandler ---> Role
+FileHandler ---> Species
+FileHandler ---> HelperFunctions
+FileHandler ---> DataHandler
+FileHandler ---> Payload
+
+Templates ---> TemplateCreator
+Templates ---> Role
+Templates ---> Species
+Templates ---> FileHandler
+Templates ---> Payload
+
+Roster ---> Templates
+Roster ---> IndividualCreator
+Roster ---> FileHandler
+
+InputHandler ---> Investigator
+InputHandler ---> Person
+InputHandler ---> Creature
+InputHandler ---> EldrithHorrror
+InputHandler ---> IndividualCreator
+InputHandler ---> TemplateCreator
+InputHandler ---> DataHandler
+InputHandler ---> Role
+InputHandler ---> Species
+InputHandler ---> Payload
+InputHandler ---> Roster
+InputHandler ---> FileHandler
+InputHandler ---> Templates
+
+@enduml

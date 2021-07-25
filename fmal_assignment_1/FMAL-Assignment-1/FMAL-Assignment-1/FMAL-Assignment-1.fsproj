@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>FMAL_Assignment_1</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Assignment1.fs" />
+        <Content Include="Tests.txt" />
+    </ItemGroup>
+
+</Project>

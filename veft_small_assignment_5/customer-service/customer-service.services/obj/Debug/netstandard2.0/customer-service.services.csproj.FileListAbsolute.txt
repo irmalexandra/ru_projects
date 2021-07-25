@@ -1,0 +1,14 @@
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.services.deps.json
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.services.dll
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.services.pdb
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.data.dll
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.models.dll
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.data.pdb
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\bin\Debug\netstandard2.0\customer-service.models.pdb
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.csprojAssemblyReference.cache
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.AssemblyInfoInputs.cache
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.AssemblyInfo.cs
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.csproj.CoreCompileInputs.cache
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.csproj.CopyComplete
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.dll
+C:\Users\emmik\OneDrive\HR\Coding\docker\VEFT-SA-5-Flamingo_Records\customer-service\customer-service.services\obj\Debug\netstandard2.0\customer-service.services.pdb

@@ -1,0 +1,13 @@
+@startuml voyage
+hide empty description
+[*] --> Unstaffed
+Unstaffed -> Cancelled
+Unstaffed -> Staffed
+Staffed -> Cancelled
+Staffed --> Started
+Started --> Completed
+Cancelled --> [*]
+Completed --> [*]
+
+@enduml
+

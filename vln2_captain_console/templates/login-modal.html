@@ -1,0 +1,32 @@
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="reveiwModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="reviewModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form class="form" method="POST">
+      <div class="modal-body">
+            {% csrf_token %}
+            {% for field in login_form %}
+                <div class="container">
+                    <div class="labelText">
+                        <b>{{ field.label_tag }}</b>
+                    </div>
+                    <div class="fieldBox">
+                        {{ field }}
+                    </div>
+
+                </div>
+             {% endfor %}
+      </div>
+      <div class="modal-footer">
+          <div class="error-field" id="login-error">Invalid Username or Password</div>
+          <button type="button" class="btn btn-primary" id="login-button">Login</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

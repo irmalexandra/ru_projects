@@ -1,0 +1,13 @@
+INSERT INTO public.main_extraimages (id, url, name) VALUES (1, 'https://static.techspot.com/images2/news/bigimage/2019/07/2019-07-12-image-23.jpg', 'Assassin''s Creed Odyssey');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (2, 'https://cdns.kinguin.net/media/category/s/s/ss_c334fed07712111399ab1951eee432ec9ed46d28.1920x1080_1538720456_6.jpg', 'Assassin''s Creed Odyssey');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (3, 'https://thespinoff.co.nz/wp-content/uploads/2019/07/image-1-850x478.jpeg', 'Assassin''s Creed Odyssey');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (4, 'https://steamcdn-a.akamaihd.net/steam/apps/239140/ss_a3771358b8eb4ea4c8f99c5850711f55b87804de.600x338.jpg?t=1588174218', 'Dying light');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (5, 'https://steamcdn-a.akamaihd.net/steam/apps/239140/ss_c5adbd601ed166d184157685d22876c96e16f530.600x338.jpg?t=1588174218', 'Dying light');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (6, 'NULL', 'None');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (7, 'http://1.bp.blogspot.com/-0T10oR9CGKg/UCa4QeJ6-7I/AAAAAAAAAEM/WOyy8-0biYw/s1600/Computer+PC+Personal+Computer+Build.jpg', 'PC');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (8, 'https://boygeniusreport.files.wordpress.com/2019/04/nintendo-switch.jpg?quality=98&strip=all', 'Nintendo Switch');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (9, 'https://brain-images-ssl.cdn.dixons.com/1/7/10153771/u_10153771.jpg', 'PS4');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (10, 'http://allthingsd.com/files/2013/12/P1040682.jpg', 'PS4');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (11, 'https://gadgetgang.com/wp-content/uploads/2019/05/Garrys-mod-Server-hosting.jpg', 'Garry''s mod');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (12, 'https://steamuserimages-a.akamaihd.net/ugc/448457289850793872/E91CC7C76C0BD9000CD6CE8EFF47A1DA40E15664/', 'Garry''s mod');
+INSERT INTO public.main_extraimages (id, url, name) VALUES (13, 'https://steamuserimages-a.akamaihd.net/ugc/1014940663404625964/419BD1825220CDF244B46B32F44B01733545ABA6/', 'Garry''s mod');

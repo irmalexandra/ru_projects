@@ -1,0 +1,27 @@
+@startuml create employee
+hide empty description
+
+
+[*] --> create_employee
+create_employee -down-> UI_input_name
+UI_input_name -down-> UI_input_name:invalid input
+UI_input_name -down-> UI_input_ssn
+UI_input_ssn -down-> UI_input_ssn::invalid input
+UI_input_ssn -down-> UI_input_home_number
+UI_input_home_number -down-> UI_input_home_number:invalid input
+UI_input_home_number -down-> UI_input_mobile_number
+UI_input_mobile_number -down-> UI_input_mobile_number:invalid input
+UI_input_mobile_number -down-> UI_input_email
+UI_input_email -down-> UI_input_email:invalid input
+UI_input_email -down-> UI_input_title
+UI_input_title -down-> UI_input_title:invalid input
+UI_input_title -down-> UI_input_licenses: if title == pilot or if title == co-pilot
+UI_input_licenses -down-> UI_input_licenses: invalid input
+UI_input_licenses --> created_employee
+UI_input_title --> created_employee:else
+created_employee --> LL_employee_checker
+LL_employee_checker --> UI_input_name: employee creation unsuccessful
+LL_employee_checker --> DL_employee_handler
+DL_employee_handler --> DB
+DB --> [*]
+@enduml

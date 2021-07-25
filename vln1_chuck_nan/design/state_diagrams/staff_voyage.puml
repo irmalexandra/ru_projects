@@ -1,0 +1,16 @@
+@startuml som bs
+
+[*] --> Find_Voyages
+Find_Voyages -> Find_Voyages
+Find_Voyages --> Find_available_staff
+Find_available_staff -> Find_available_staff
+Find_available_staff --> Pilots
+Pilots --> Find_pilots_with_license
+Find_pilots_with_license --> Pilot
+Find_pilots_with_license --> Co_pilot
+
+Find_available_staff --> Cabin_crew
+Cabin_crew --> Flight_attendant_manager
+Cabin_crew --> Flight_attendants
+
+@enduml

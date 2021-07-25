@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 050bc1255530116459e5ba0cf2ff64ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -522281848368069133
+    second: bigBoomer_0
+  - first:
+      213: -1054051898017565615
+    second: bigBoomer_1
+  - first:
+      213: 5886319088580345898
+    second: bigBoomer_2
+  - first:
+      213: 6757271789926114716
+    second: bigBoomer_3
+  - first:
+      213: -5636134387708219729
+    second: bigBoomer_4
+  - first:
+      213: 842984198013515786
+    second: bigBoomer_5
+  - first:
+      213: 2454333372771069461
+    second: bigBoomer_6
+  - first:
+      213: -1846742772528827396
+    second: bigBoomer_7
+  - first:
+      213: -196731496308725947
+    second: bigBoomer_8
+  - first:
+      213: -5542444997848893847
+    second: bigBoomer_9
+  - first:
+      213: 4488032338263277515
+    second: bigBoomer_10
+  - first:
+      213: 6757330588087305689
+    second: bigBoomer_11
+  - first:
+      213: -3411330781864120439
+    second: bigBoomer_12
+  - first:
+      213: 7907876718644934428
+    second: bigBoomer_13
+  - first:
+      213: 4189257735872524042
+    second: bigBoomer_14
+  - first:
+      213: 1216974030697508392
+    second: bigBoomer_15
+  - first:
+      213: -1429087872007089207
+    second: bigBoomer_16
+  - first:
+      213: -7079430202202964511
+    second: bigBoomer_17
+  - first:
+      213: -1165387818789975434
+    second: bigBoomer_18
+  - first:
+      213: -4431690320115887107
+    second: bigBoomer_19
+  - first:
+      213: -8948547723982414089
+    second: bigBoomer_20
+  - first:
+      213: -388321201759006490
+    second: bigBoomer_21
+  - first:
+      213: 3505076709803713395
+    second: bigBoomer_22
+  - first:
+      213: -4763990691669405559
+    second: bigBoomer_23
+  - first:
+      213: 6932368803374045201
+    second: bigBoomer_24
+  - first:
+      213: -2766775065027570364
+    second: bigBoomer_25
+  - first:
+      213: -8811652494889997706
+    second: bigBoomer_26
+  - first:
+      213: -896919958548763137
+    second: bigBoomer_27
+  - first:
+      213: -5370992130103931249
+    second: bigBoomer_28
+  - first:
+      213: 1863694785866685573
+    second: bigBoomer_29
+  - first:
+      213: -1557817357009313193
+    second: bigBoomer_30
+  - first:
+      213: -1624785365618446356
+    second: bigBoomer_31
+  - first:
+      213: -3227968395843227565
+    second: bigBoomer_32
+  - first:
+      213: 8852054849134156567
+    second: bigBoomer_33
+  - first:
+      213: -7273662920915965303
+    second: bigBoomer_34
+  - first:
+      213: -5532849585380291951
+    second: bigBoomer_35
+  - first:
+      213: -2406346264759082624
+    second: bigBoomer_36
+  - first:
+      213: 5341010249825262768
+    second: bigBoomer_37
+  - first:
+      213: -6889617849000902185
+    second: bigBoomer_38
+  - first:
+      213: 3011206725113586380
+    second: bigBoomer_39
+  - first:
+      213: -1342641237976809646
+    second: bigBoomer_40
+  - first:
+      213: -2494689729460317105
+    second: bigBoomer_41
+  - first:
+      213: 2615876781621238295
+    second: bigBoomer_42
+  - first:
+      213: 6002662087484492754
+    second: bigBoomer_43
+  - first:
+      213: -3583360124539189631
+    second: bigBoomer_44
+  - first:
+      213: 332389962774001945
+    second: bigBoomer_45
+  - first:
+      213: 4367441364344317228
+    second: bigBoomer_46
+  - first:
+      213: -4111981562039235788
+    second: bigBoomer_47
+  - first:
+      213: 6325858532084645274
+    second: bigBoomer_48
+  - first:
+      213: 7962986037849917824
+    second: bigBoomer_49
+  - first:
+      213: -4176237549022022343
+    second: bigBoomer_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bigBoomer_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1330
+        width: 153
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f503631d6b70c8f0800000000000000
+      internalID: -522281848368069133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1335
+        width: 245
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15436d322614f51f0800000000000000
+      internalID: -1054051898017565615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1382
+        width: 85
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ce65260860b150800000000000000
+      internalID: 5886319088580345898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1396
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95605134e6a6cd50800000000000000
+      internalID: 6757271789926114716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1382
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faea94ac2ad68c1b0800000000000000
+      internalID: -5636134387708219729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_5
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1414
+        width: 123
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08fcd969a1e2bb00800000000000000
+      internalID: 842984198013515786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1217
+        width: 133
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee76ce23b8f0220800000000000000
+      internalID: 2454333372771069461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1209
+        width: 166
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf336eb9b3d0f56e0800000000000000
+      internalID: -1846742772528827396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1232
+        width: 121
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54723661fb1154df0800000000000000
+      internalID: -196731496308725947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_9
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1231
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966731cb3a74513b0800000000000000
+      internalID: -5542444997848893847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1224
+        width: 140
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcff5ae02a1b84e30800000000000000
+      internalID: 4488032338263277515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_11
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1225
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d543d43e5cd6cd50800000000000000
+      internalID: 6757330588087305689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_12
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1251
+        width: 26
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f22a75ab488a0d0800000000000000
+      internalID: -3411330781864120439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1068
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17b9665afb6ebd60800000000000000
+      internalID: 7907876718644934428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1156
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f2d3317bb332a30800000000000000
+      internalID: 4189257735872524042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_15
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1162
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ea990ee6f83e010800000000000000
+      internalID: 1216974030697508392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1019
+        width: 70
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3d23ce62cda2ce0800000000000000
+      internalID: -1429087872007089207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_17
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1103
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed35815dbfc0cd90800000000000000
+      internalID: -7079430202202964511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_18
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 941
+        width: 151
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ac47b04f5b3dfe0800000000000000
+      internalID: -1165387818789975434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1022
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df394fa42297f72c0800000000000000
+      internalID: -4431690320115887107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_20
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 875
+        width: 47
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed568a14f50d380800000000000000
+      internalID: -8948547723982414089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 800
+        width: 66
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0d666ace76c9af0800000000000000
+      internalID: -388321201759006490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 944
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373685662b884a030800000000000000
+      internalID: 3505076709803713395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_23
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 883
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98017c5e4b7e2edb0800000000000000
+      internalID: -4763990691669405559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_24
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 815
+        width: 155
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1181c1982b8b43060800000000000000
+      internalID: 6932368803374045201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 760
+        width: 141
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459f93ccb07a99d0800000000000000
+      internalID: -2766775065027570364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 770
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aa5e5fdb8b6b580800000000000000
+      internalID: -8811652494889997706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_27
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 697
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2ebebc008d83f0800000000000000
+      internalID: -896919958548763137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_28
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 716
+        width: 79
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8cb94d176675b0800000000000000
+      internalID: -5370992130103931249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 615
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cd451988c2dd910800000000000000
+      internalID: 1863694785866685573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_30
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 690
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752a5821e55816ae0800000000000000
+      internalID: -1557817357009313193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 501
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef2f06815a9379e0800000000000000
+      internalID: -1624785365618446356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_32
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 577
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350b393b8d3f333d0800000000000000
+      internalID: -3227968395843227565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_33
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 468
+        width: 118
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5aee2cf0d8da70800000000000000
+      internalID: 8852054849134156567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_34
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 473
+        width: 124
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aafd66c12ce0b90800000000000000
+      internalID: -7273662920915965303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_35
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 456
+        width: 125
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a8dbbcd9e5733b0800000000000000
+      internalID: -5532849585380291951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 368
+        width: 63
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081627252d0fa9ed0800000000000000
+      internalID: -2406346264759082624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_37
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 375
+        width: 209
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc1e8a36841f1a40800000000000000
+      internalID: 5341010249825262768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_38
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 409
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d14c10b1192360a0800000000000000
+      internalID: -6889617849000902185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_39
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 228
+        width: 209
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2a9abff84f9c920800000000000000
+      internalID: 3011206725113586380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_40
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 303
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ff99d58eafd5de0800000000000000
+      internalID: -1342641237976809646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_41
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 323
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44d3b298e4116dd0800000000000000
+      internalID: -2494689729460317105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_42
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 312
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ad9b8c2167d4420800000000000000
+      internalID: 2615876781621238295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_43
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 324
+        width: 143
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbc7377d5dbd4350800000000000000
+      internalID: 6002662087484492754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_44
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 200
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ca82c3f8554ec0800000000000000
+      internalID: -3583360124539189631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_45
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 181
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919bc0af8e2ec9400800000000000000
+      internalID: 332389962774001945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_46
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 70
+        width: 146
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25271bf7c44c9c30800000000000000
+      internalID: 4367441364344317228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_47
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 157
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b02b73e8e4fe6c0800000000000000
+      internalID: -4111981562039235788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 275
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7740b1d6f9c750800000000000000
+      internalID: 6325858532084645274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_49
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 4
+        width: 26
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08980799c95328e60800000000000000
+      internalID: 7962986037849917824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigBoomer_50
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 159
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f4e863160b06c0800000000000000
+      internalID: -4176237549022022343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

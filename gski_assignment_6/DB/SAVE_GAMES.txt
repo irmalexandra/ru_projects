@@ -1,0 +1,7 @@
+r1klus,test,4,t._._.t,t.e.s.t,2,200,1
+r1klus,test,4,_.e._._,t.e.s.t,3,9021,1
+tester,test,4,_.e._._,t.e.s.t,3,9999,1
+tester,test,4,t.e._.t,t.e.s.t,1,20202,2
+tester,test,4,t.e._.t,t.e.s.t,1,200,2
+lokialex,progress,8,_._._._._.e.s.s,p.r.o.g.r.e.s.s,5,200,3
+lokialex,test,4,t._._.t,t.e.s.t,2,20,1

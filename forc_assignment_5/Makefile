@@ -1,0 +1,5 @@
+COMPILER = g++
+FLAGS = -std=c++11
+
+simulator: main.cpp
+	$(COMPILER) $(FLAGS) -o BattleSimulator main.cpp Models/Being.cpp Models/Creature.cpp Models/Person.cpp Models/Investigator.cpp Models/EldritchHorror.cpp Classes/IndividualCreator.cpp Classes/TemplateCreator.cpp Classes/ActionCreator.cpp Templates/IndividualTemplates/IndividualBaseTemplate.cpp Templates/IndividualTemplates/Species.cpp Templates/IndividualTemplates/Role.cpp Templates/ActionTemplates/ActionBaseTemplate.cpp Templates/ActionTemplates/Offensive.cpp Templates/ActionTemplates/Defensive.cpp Helpers/SubMenus/Actions.cpp Helpers/SubMenus/Roster.cpp Helpers/SubMenus/Templates.cpp Helpers/Structs/Payload.cpp Helpers/Structs/Stats.cpp Helpers/DisplayHelper.cpp Helpers/InputHandler.cpp Helpers/FileHandler.cpp Helpers/HelperFunctions.cpp Helpers/SubMenus/Battle.cpp Classes/BattleHandler.cpp

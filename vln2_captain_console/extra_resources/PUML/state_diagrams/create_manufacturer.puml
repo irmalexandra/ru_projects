@@ -1,0 +1,20 @@
+@startuml create voyage
+hide empty description
+
+[*] --> Create_Console
+Create_Console --> fill_in_name
+fill_in_name --> fill_in_name :invalid input
+fill_in_name --> fill_in_logo
+fill_in_logo --> fill_in_logo: invalid input
+fill_in_logo --> fill_in_year_of_make
+fill_in_year_of_make --> fill_in_year_of_make: invalid input
+
+fill_in_year_of_make --> [*]
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <div class="container-fluid padding">
+      {% include 'sort_consoles.html' %}
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+        {% for console in consoles %}
+            {% include 'product_card.html' with product=console %}
+        {% endfor %}
+      </div>
+  </div>
+     <script src="{% static 'js/add_to_cart_button.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form class="form" method="post">
+        {% csrf_token %}
+        <div class="container">
+            <h1>Login</h1>
+            <hr>
+            {%  for field in form %}
+                <div class="labelText">
+                    <b>{{ field.label }}:</b>
+                </div>
+                <div class="fieldBox">
+                    <b>{{ field }}</b>
+                </div>
+                {% for error in field.errors %}
+                    <p class="error">{{ error }}</p>
+                {% endfor %}
+            {% endfor %}
+            <hr>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </form>
+{% endblock %}

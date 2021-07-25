@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container-fluid padding text-center">
+          <div class="row padding text-center">
+            <div class="col-12 text-center">
+                    <h1>Search results</h1>
+                    <hr class="light">
+                    <br>
+                    <div class="d-flex flex-row flex-wrap justify-content-center">
+                    {% for game in games %}
+                        {% include 'product_card.html' with product=game %}
+                    {% endfor %}
+                    {% for console in consoles %}
+                        {% include 'product_card.html' with product=console %}
+                    {% endfor %}
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+{% endblock %}

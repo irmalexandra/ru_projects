@@ -1,0 +1,21 @@
+@startuml create destination
+hide empty description
+[*] -down-> create_destination
+create_destination -down-> UI_input_country
+UI_input_country -down-> UI_input_country:invalid input
+UI_input_country -down-> UI_input_airport
+UI_input_airport -down-> UI_input_airport:invalid input
+UI_input_airport -down-> UI_input_flight_time
+UI_input_flight_time -down-> UI_input_flight_time:invalid input
+UI_input_flight_time -down-> UI_input_distance
+UI_input_distance -down-> UI_input_distance:invalid input
+UI_input_distance -down-> UI_input_contact_name
+UI_input_contact_name -down-> UI_input_contact_name:invalid input
+UI_input_contact_name -down-> UI_input_contact_number
+UI_input_contact_number -down-> UI_input_contact_number
+UI_input_contact_number -down-> LL_destination_checker
+LL_destination_checker --> UI_input_country
+LL_destination_checker -down-> DL_destination_handler
+DL_destination_handler -down-> DB
+
+@enduml

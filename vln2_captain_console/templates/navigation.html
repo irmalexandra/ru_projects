@@ -1,0 +1,54 @@
+{% load static %}
+<nav class="navbar navbar-expand-md sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand nav-link" href="/"><img src="{% static 'images/captain_console_logo.png' %}"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item {{ games_tab }} mr-3">
+				<a class="nav-link" href="/games">Games</a>
+			</li>
+			<li class="nav-item {{ consoles_tab }} mr-3">
+				<a class="nav-link" href="/consoles">Consoles</a>
+			</li>
+			<li class="nav-item {{ offers_tab }} mr-3">
+				<a class="nav-link" href="/offers">Offers</a>
+			</li>
+    </ul>
+		<form class="form-inline my-2 my-lg-0" action = "{% url "search-results" %}" method="GET">
+          <input name="search_field" class="form-control mr-sm-2 search-bar" placeholder="Search" aria-label="Search">
+          <button type="submit" class="btn search-button search_icon">
+              <i class="fas fa-search"></i></button>
+        </form>
+		<ul class="navbar-nav">
+			{% if user.is_authenticated %}
+					<li class="nav-item">
+						<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										{{ request.user }}
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="/users/profile">Profile</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="/users/logout">Logout</a>
+								</div>
+						</li>
+					{% else %}
+					<li class="nav-item">
+						<a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#registerModal">Register</a>
+					</li>
+
+			{% endif %}
+			<li class="nav-item">
+					<a class="nav-link" href="/carts"><i class="fas fa-shopping-cart"></i></a>
+			</li>
+		</ul>
+      </div>
+</div>
+</nav>

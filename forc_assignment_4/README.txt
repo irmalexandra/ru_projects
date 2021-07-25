@@ -1,0 +1,1 @@
+g++ -o program.exe Models/Being.cpp Models/Creature.cpp Models/Person.cpp Models/Investigator.cpp Models/EldritchHorror.cpp Classes/IndividualCreator.cpp Helpers/InputHandler.cpp Helpers/FileHandler.cpp Helpers/HelperFunctions.cpp Helpers/DataHandler.h Classes/TemplateCreator.cpp Templates/BaseTemplate.cpp Templates/Species.cpp Templates/Role.cpp main.cpp -std=c++11

@@ -1,0 +1,13 @@
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (1, 4, 1);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (2, 4, 2);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (3, 4, 3);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (5, 11, 4);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (6, 11, 5);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (10, 6, 6);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (11, 10, 7);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (12, 7, 8);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (13, 1, 9);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (14, 1, 10);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (15, 2, 11);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (16, 2, 12);
+INSERT INTO public.main_product_extra_images (id, product_id, extraimages_id) VALUES (17, 2, 13);

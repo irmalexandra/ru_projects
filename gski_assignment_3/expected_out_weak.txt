@@ -1,0 +1,75 @@
+
+
+TESTING THE BASIC STUFF
+
+   -   current value: None   -   size: 0
+A    -   current value: A   -   size: 1
+B A    -   current value: B   -   size: 2
+C B A    -   current value: C   -   size: 3
+D C B A    -   current value: D   -   size: 4
+E D C B A    -   current value: E   -   size: 5
+E D C B A    -   current value: D   -   size: 5
+E D C B A    -   current value: C   -   size: 5
+E D 1 C B A    -   current value: 1   -   size: 6
+E D 2 1 C B A    -   current value: 2   -   size: 7
+E D 2 1 C B A    -   current value: 1   -   size: 7
+E D 2 3 1 C B A    -   current value: 3   -   size: 8
+E D 2 4 3 1 C B A    -   current value: 4   -   size: 9
+E D 2 4 3 1 C B A    -   current value: 2   -   size: 9
+E D VALUE 2 4 3 1 C B A    -   current value: VALUE   -   size: 10
+E D VALUE 2 4 3 1 C B A    -   current value: B   -   size: 10
+E D VALUE 2 4 3 1 C A    -   current value: A   -   size: 9
+E D VALUE 2 4 3 1 C    -   current value: None   -   size: 8
+E D VALUE 2 4 3 1 C    -   current value: None   -   size: 8
+E D VALUE 2 4 3 1 C    -   current value: VALUE   -   size: 8
+E D 2 4 3 1 C    -   current value: 2   -   size: 7
+E D 4 3 1 C    -   current value: 4   -   size: 6
+E D 3 1 C    -   current value: 3   -   size: 5
+E D 3 1 C    -   current value: D   -   size: 5
+E D 3 1 C    -   current value: E   -   size: 5
+E D 3 1 C    -   current value: E   -   size: 5
+E D 3 1 C    -   current value: E   -   size: 5
+E D 3 1 C    -   current value: E   -   size: 5
+E D 3 1 C    -   current value: E   -   size: 5
+D 3 1 C    -   current value: D   -   size: 4
+3 1 C    -   current value: 3   -   size: 3
+3 1 C    -   current value: 1   -   size: 3
+3 1 C    -   current value: C   -   size: 3
+3 1 C    -   current value: None   -   size: 3
+3 1 C    -   current value: None   -   size: 3
+3 1 C    -   current value: None   -   size: 3
+3 1 C    -   current value: None   -   size: 3
+3 1 C    -   current value: None   -   size: 3
+3 1 C    -   current value: 3   -   size: 3
+1 C    -   current value: 1   -   size: 2
+C    -   current value: C   -   size: 1
+   -   current value: None   -   size: 0
+   -   current value: None   -   size: 0
+
+
+TESTING MORE COMPLEX STUFF
+
+   -   current value: None   -   size: 0
+A    -   current value: A   -   size: 1
+B1 A    -   current value: B1   -   size: 2
+C B1 A    -   current value: C   -   size: 3
+A C B1 A    -   current value: A   -   size: 4
+B2 A C B1 A    -   current value: B2   -   size: 5
+A B1 C A B2    -   current value: A   -   size: 5
+C A B1 C A B2    -   current value: C   -   size: 6
+A C A B1 C A B2    -   current value: A   -   size: 7
+B3 A C A B1 C A B2    -   current value: B3   -   size: 8
+C B3 A C A B1 C A B2    -   current value: C   -   size: 9
+B3 A A B1 A B2    -   current value: B3   -   size: 6
+A A A B1 B2 B3    -   current value: A   -   size: 6
+B1 B2 B3    -   current value: B1   -   size: 3
+B3 B2 B1    -   current value: B3   -   size: 3
+B3 B2 B1    -   current value: B3   -   size: 3
+B3 B2 B1    -   current value: B2   -   size: 3
+B3 B1    -   current value: B1   -   size: 2
+B3    -   current value: None   -   size: 1
+B3    -   current value: None   -   size: 1
+B3    -   current value: None   -   size: 1
+B3    -   current value: B3   -   size: 1
+B3    -   current value: B3   -   size: 1
+   -   current value: None   -   size: 0

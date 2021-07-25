@@ -1,0 +1,85 @@
+#bombField{
+    width:auto;
+    height:auto;
+    text-align: center; 
+    padding:1%;
+    display: block;
+}
+
+#main{
+    text-align: center;
+    min-width: 300px;
+    width: auto;
+    background-color: lightblue;
+}
+
+#timer{
+    display: none;
+    margin: auto;
+}
+
+#bodyContainer{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+
+}
+
+#running{
+    display: none;
+}
+
+#win{
+    display: none
+}
+
+#lose{
+    display: none
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+#menuForm{
+    text-align: right;
+}
+
+#submitContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.flags{
+    pointer-events: none;
+    display: none;
+}
+
+.fieldButton{
+    width: 32px;
+    height: 100%;
+}
+
+.fieldButton{
+    background-color: lightgray; 
+}
+
+.fieldButton:disabled{
+    border: 1px solid gray;
+}
+.innerContainer{
+    display: flex;
+    justify-content: center;
+    height: 32px;
+}
+
+.buttSpanClass{
+    display: none;
+}
+
+body{
+    text-align:center;
+}
+

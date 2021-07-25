@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kd9KRSI9wW1kNIFUWTtJHBZO2wGucH1E6ND5g+Me+tInrCzJYiRPl1NHPYw7xNoL3kPofdd/qgBGzncHv27Ofw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emmik\\OneDrive\\HR\\Coding\\docker\\VEFT-SA-5-Flamingo_Records\\customer-service\\customer-service.models\\customer-service.models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emmik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\emmik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\emmik\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\emmik\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

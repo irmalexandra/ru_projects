@@ -1,0 +1,4 @@
+{
+    "exchangeName": "flamingo_exchange",
+    "routingKey": "order_create_success"
+}

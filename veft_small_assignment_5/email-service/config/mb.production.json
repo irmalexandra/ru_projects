@@ -1,0 +1,6 @@
+{
+    "host": "message-broker",
+    "virtualhost": "/",
+    "user": "user",
+    "password": "pass"
+}

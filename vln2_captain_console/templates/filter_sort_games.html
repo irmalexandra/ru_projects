@@ -1,0 +1,47 @@
+<div class="d-flex flex-row flex-wrap justify-content-end my-2 btn-group">
+  <div class="dropdown dropdown-btn mx-2">
+    <small>Filter by:</small>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-filter-genre" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ genre_label }}
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <a  class="dropdown-item" href="{% url "filter_by_genre" "all" %}">All Genres</a>
+        <div class="dropdown-divider"></div>
+        {% for genre in genres %}
+        <a  class="dropdown-item" href="{% url "filter_by_genre" genre.id %}">Genre: {{ genre.name }}</a>
+        <div class="dropdown-divider"></div>
+        {% endfor %}
+
+    </div>
+  </div>
+
+  <div class="dropdown dropdown-btn mx-2">
+    <small>Filter by:</small>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-filter-console" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ console_label }}
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <a  class="dropdown-item" href="{% url "filter_by_console" "all" %}">All Consoles</a>
+        <div class="dropdown-divider"></div>
+
+        {% for console in consoles %}
+            <a  class="dropdown-item" href="{% url "filter_by_console" console.id %}">Console: {{ console.name }}</a>
+            <div class="dropdown-divider"></div>
+        {% endfor %}
+    </div>
+  </div>
+  <div class="dropdown dropdown-btn mx-2">
+    <small>Sort by:</small>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ sort_label }}
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        {% for key, value in sort_dict.items %}
+            <div class="dropdown-divider"></div>
+        <a  class="dropdown-item" href="{% url "game_sort_view" key %}">{{ value }}</a>
+        {% endfor %}
+
+
+    </div>
+  </div>
+</div>

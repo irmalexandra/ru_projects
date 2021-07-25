@@ -1,0 +1,5 @@
+server/
+.idea/
+bubblify/.idea/
+bubblify/node_modules/
+bubblify/package-lock.json

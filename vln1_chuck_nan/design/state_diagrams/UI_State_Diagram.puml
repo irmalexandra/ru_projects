@@ -1,0 +1,131 @@
+@startuml UI_states
+hide empty description
+MainMenu: 1. Employees \n2. Voyages \n3. Destinations \n4. Airplanes
+
+state Employee_state #fcb603{
+
+    MainMenu #fa939a -Left-> Employees: 1
+    Employees: 1. CreateEmployee \n2. AllEmployees \n3. EmployeeSearch
+    Employees -up-> CreateEmployee: 1
+    CreateEmployee: Krafa 1
+    Employees -up-> AllEmployees: 2
+    AllEmployees: Krafa 2
+    AllEmployees -up-> ShowEmployees
+    EmployeeSearch: 1. BySSN\n2. ByTitle\n3. ByDate\n4. ByAirplane
+    Employees -down-> EmployeeSearch :3
+    EmployeeSearch --> ByTitle: 2
+    ByTitle: Krafa 3
+    ByTitle --> ShowEmployees: Input Title
+    EmployeeSearch --> ByDate: 3
+    ByDate --> ShowEmployees: Input Period
+    EmployeeSearch --> BySSN: 1
+    BySSN: Krafa 4
+    BySSN --> ShowEmployee
+    EmployeeSearch --> ByAirplane: 4
+    ByAirplane --> ShowPilots: Input AirplaneType
+    ByAirplane: Krafa 20
+    ShowPilots: <Sorted by Airplane type>\n 1. Select Pilot\n 2. Filter by Airplane type 
+    ShowPilots --> ShowEmployee: 1
+    ShowPilots --> FilterByAirplaneType: 2 \n Input AirplaneType
+    FilterByAirplaneType: Krafa 19
+    ShowEmployees: 1. Select Employee \n2. ShowWorking \n3. ShowFree
+    ShowEmployees --> ShowFree: 3
+    ShowFree: Krafa 13
+    ShowEmployees --> ShowWorking: 2
+    ShowWorking: Krafa 14
+    ShowEmployees --> ShowEmployee: 1
+    ShowEmployee: 1. EditEmployee \n2. WorkSchedule\n3. ChangeAirplaneType
+    ShowEmployee --> EditEmployee: 1
+    EditEmployee: Krafa 5
+    ShowEmployee --> WorkSchedule: 2
+    WorkSchedule: Krafa 15
+    ShowEmployee --> ChangeAirplaneType: 3 \n Input AirplaneType
+    ChangeAirplaneType: Krafa 18
+    WorkSchedule --> ShowWorkSchedule: Input Period
+    ChangeAirplaneType: If Employee == Pilot or Co-Pilot
+
+}
+
+
+state Voyages_state #f58ef0{
+    MainMenu -Down-> Voyages: 2
+    Voyages: 1. Create Voyage \n2. AllVoyages \n3. VoyageSearch
+    
+    Voyages --> CreateVoyage: 1
+    CreateVoyage: Krafa 8
+    
+    Voyages --> AllVoyages: 2
+    AllVoyages: Krafa 11
+    AllVoyages --> ShowVoyages
+    
+    Voyages --> VoyageSearch: 3
+    
+    VoyageSearch: 1. ByDestination \n2. ByPeriod \n3. EmptyVoyages
+    
+    VoyageSearch --> ByDestination: 1 \nInput Destination
+    ByDestination --> ShowVoyages
+
+    VoyageSearch --> EmptyVoyages: 3
+    EmptyVoyages: Krafa 9
+    EmptyVoyages --> ShowVoyages
+
+    VoyageSearch --> ByPeriod: 2 \nInput Period
+    ByPeriod: Krafa 12
+    ByPeriod --> ShowVoyages
+    
+    ShowVoyages: 1. Select Voyage
+    ShowVoyages --> ShowVoyage: 1
+    
+    ShowVoyage: 1. AddCrew\n 2. Duplicate\n 3. Repeat
+    
+    ShowVoyage --> AddCrew: 1
+    AddCrew: Krafa 10
+    
+    ShowVoyage --> DuplicateVoyage: 2 \nInput Date
+    DuplicateVoyage: Krafa 16
+    
+    ShowVoyage --> RepeatVoyage: 3 \nInput Period \nInput Interval
+    RepeatVoyage: Krafa 16
+
+}
+
+state Destination_state #70e697{
+    MainMenu -Right-> Destinations: 3
+    
+    Destinations:1. Create Destination \n2. AllDestinations \n3. DestinationSearch
+    Destinations -up-> CreateDestination: 1
+    CreateDestination: Krafa 6
+    
+    Destinations -down-> AllDestinations: 2
+    AllDestinations: Krafa 7
+    
+    Destinations -right-> DestinationSearch
+    DestinationSearch --> ShowDestination: Input Destination Name
+    
+    AllDestinations --> ShowDestinations
+    ShowDestinations: 1. Select Destination
+    ShowDestinations --> ShowDestination: 1
+    
+    ShowDestination: 1. ChangeContact \n2. ChangeEmergencyNumber
+    ShowDestination --> ChangeContact: 1 \n Input Name
+    ChangeContact: Krafa 21
+    ShowDestination --> ChangeEmergencyNumber: 2 \n Input Number
+    ChangeEmergencyNumber: Krafa 22
+}
+
+state Airplanes_state #99c0ff{
+    MainMenu -up-> Airplanes:4 
+    Airplanes: 1. CreateAirplane \n2. AllPlanes
+    Airplanes -left-> CreateAirplane: 1
+    CreateAirplane: Krafa 17
+
+    Airplanes -right-> AllPlanes: 2
+    AllPlanes: Krafa 23
+    AllPlanes -up-> ShowPlanes
+
+    
+    
+
+}
+
+@enduml

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <h2>Update my payment information</h2>
+        <br>
+        <form class="form-group" method="post">
+            {% csrf_token %}
+            <fieldset>
+                {% for field in payment_form %}
+                    <br>
+                    <label> {{ field.label_tag }}</label>
+                    {{ field }}
+                    {% for error in field.errors %}
+                      <p class="error">{{ error }}</p>
+                    {% endfor %}
+                {% endfor %}
+
+            </fieldset>
+            <br>
+            <div class="row">
+                <div class="col-auto mr-auto">
+                    <button type="reset" class="btn btn-primary return-button">Return to profile</button></div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Save changes</button></div>
+            </div>
+        </form>
+        <br>
+    </div>
+    <br>
+    <script src="{% static 'js/update_payment_info.js'%}"></script>
+    <script src="{% static 'js/in_field_placeholder.js' %}"></script>
+    <script src="{% static 'js/back_function.js' %}"></script>
+
+{% endblock %}

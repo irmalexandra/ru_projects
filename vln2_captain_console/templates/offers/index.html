@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="col-12 text-center">
+        <div class="container-fluid padding">
+            <h1>Game Offers</h1>
+            <hr class="light">
+            <br>
+            <div class="d-flex flex-row flex-wrap justify-content-center">
+                {% if game_offers %}
+                    {% for game in game_offers %}
+                        {% include 'product_card.html' with product=game %}
+                    {% endfor %}
+                {% else %}
+                    <h3>There are currently no game offers</h3>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <h1>Console Offers</h1>
+            <hr class="light">
+            <br>
+            <div class="container-fluid padding">
+                <div class="d-flex flex-row flex-wrap justify-content-center">
+                    {% if console_offers %}
+                        {% for console in console_offers %}
+                            {% include 'product_card.html' with product=console %}
+                        {% endfor %}
+                    {% else %}
+                        <h3>There are currently no console offers</h3>
+                    {% endif %}
+                </div>
+            </div>
+{% endblock %}

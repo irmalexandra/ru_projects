@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="container-fluid padding text-center">
+      <div class="row padding text-center">
+        <div class="col-12 text-center" id="main-cart-menu">
+        <h1>Cart</h1>
+            <hr class="light">
+        <br>
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+        <form action="{% url 'shipping_info' %}" method="get" id="actual-form">
+        {% if products %}
+        <table class="table" id="product-table">
+            <thead id="table-head">
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col"></th>
+                    <th scope="col">price</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+                <tbody id="table-body">
+                    {% for product in products %}
+                        {% if user.is_authenticated  %}
+                            <tr class="product-row" id="product-row-{{ product.id.id }}">
+                                <th scope="row">
+                                    <img class="card-img-top img-fluid rounded mx-auto d-block" src="{{ product.img }}" style="height: 100px; width: 100px">
+                                </th>
+                                <th>
+                                    <h4 class="card-title">{{ product.name }}</h4>
+                                </th>
+                                <th>
+                                    <h4><input id="{{ product.id.id }}" class="quantity" type="number" min="1" value="{{ product.quantity }}" style="width: 20%"></h4>
+                                </th>
+                                <th>
+                                    {% if product.id.discount %}
+                                        <h4 class="on-sale-tag">{{ product.id.discount }}% discount</h4>
+                                    {% endif %}
+                                </th>
+                                <th>
+                                    <h4 id="price-{{ product.id.id }}">{{ product.price }}</h4>
+                                </th>
+                                <th>
+                                    <button type="button" id="{{ product.id.id }}" class = "remove-button btn btn-primary">Remove</button>
+                                </th>
+                            </tr>
+                        {% else %}
+                                <tr class="product-row" id="product-row-{{ product.id }}">
+                                <th scope="row">
+                                    <img class="card-img-top img-fluid rounded mx-auto d-block" src="{{ product.img }}" style="height: 100px; width: 100px">
+                                </th>
+                                <th>
+                                    <h4 class="card-title">{{ product.name }}</h4>
+                                </th>
+                                <th>
+                                    <h4><input id="{{ product.id }}" class="quantity" type="number" min="1" value="{{ product.quantity }}" style="width: 20%"></h4>
+                                </th>
+                                <th>
+                                    {% if product.discount %}
+                                        <h4 class="on-sale-tag">{{ product.discount }}% discount</h4>
+                                    {% endif %}
+                                </th>
+                                <th>
+                                    <h4  id="price-{{ product.id }}">{{ product.price }}</h4>
+                                </th>
+                                <th>
+                                    <button type="button" id="{{ product.id }}" class = "remove-button btn btn-primary">Remove</button>
+                                </th>
+                            </tr>
+                        {% endif %}
+
+                    {% endfor %}
+
+                        <tr>
+                            <th scope="row">
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                                <h4 id="price-total">Total: {{ price_sum }}</h4>
+                            </th>
+                            <th>
+                                <button type="button" id="clear-all" class="btn btn-primary">Clear cart</button>
+                            </th>
+                        </tr>
+            </tbody>
+        </table>
+            <button type="submit" class="btn btn-primary" id="proceed-button">Proceed to checkout</button>
+
+        {% else %}
+            <h3>There are no products in your cart</h3>
+
+        {% endif %}
+        </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{% static 'js/cart.js' %}"></script>
+{% endblock %}
+
+

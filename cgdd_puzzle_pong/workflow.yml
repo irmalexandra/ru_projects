@@ -1,0 +1,11 @@
+- name: Discord Webhook Notify
+  uses: rjstone/discord-webhook-notify@v1.0.4
+
+webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+
+- name: Commit Notification
+    uses: rjstone/discord-webhook-notify@v1.0.4
+    with:
+        severity: info
+        details: Commit successful.
+        webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}

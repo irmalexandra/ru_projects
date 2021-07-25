@@ -1,0 +1,32 @@
+@startuml
+(*) --> HomePage
+HomePage ---> Games
+HomePage ---> Console
+HomePage ---> Offers
+HomePage --right--> LoginDropDown
+HomePage ----down----> Basket
+LoginDropDown ---right---> CreateAccount
+CreateAccount --->[Invalid account information] CreateAccount
+LoginDropDown ---> Login
+Login -->[Password og Account invalid] LoginDropDown
+Login --> Profile
+Profile --> EditProfile
+Games --->[Sort and/or Filter] Games
+Games ---> GameDetails
+Console ---> ConsoleDetails
+Offers ---> ConsoleDetails
+Offers ---> GameDetails
+ConsoleDetails ---> AddToBasket
+GameDetails ---> AddToBasket
+AddToBasket -up->[Product not available] GameDetails
+AddToBasket -up->[Product not available] ConsoleDetails
+Basket --> Checkout
+Checkout --> Payment
+Payment --> Checkout
+Checkout -->[Product not available, Product might have soldout between adding to basket and payment] Checkout
+Payment --> ReviewOrder
+ReviewOrder --> Payment
+Payment -->[Payment Unsuccessful] Payment
+ReviewOrder --> CompleteOrder
+CompleteOrder --> HomePage
+@enduml

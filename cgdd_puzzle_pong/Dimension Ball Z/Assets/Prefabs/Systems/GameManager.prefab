@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7800865811797575594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7800865811797575572}
+  - component: {fileID: 7800865811797575573}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7800865811797575572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800865811797575594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.21918927, y: 0.24599352, z: -1.7030468}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7800865811797575573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800865811797575594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d853aa2624398e419050fe90cfd120b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverCanvas: {fileID: 6345322580813569672, guid: 471fe1a595dce1b408adea3a09859624,
+    type: 3}
+  PauseCanvas: {fileID: 2576402273796141461, guid: 8083f6fb916b1d048bfe5bc62b2cc39c,
+    type: 3}
+  LevelStartCanvas: {fileID: 1008724239857904396, guid: 89e4bcfbff9dfe540ae13f7f06fa2b37,
+    type: 3}
+  LevelCompleteCanvas: {fileID: 1544420046748276491, guid: a457bfb778954ca4baeaa81c1cb62aa3,
+    type: 3}
+  extraBalls: 3
+  locked: 0
+  disableSlowmotion: 0
+  DisablePauseMenu: 0

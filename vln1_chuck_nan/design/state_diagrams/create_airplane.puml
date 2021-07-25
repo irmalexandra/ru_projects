@@ -1,0 +1,18 @@
+@startuml create airplane
+hide empty description
+[*] --> create_airplane
+create_airplane -down-> UI_input_name
+UI_input_name -down-> UI_input_name:invalid input
+UI_input_name -down-> UI_input_make
+UI_input_make -down-> UI_input_make:invalid input
+UI_input_make -down-> UI_input_model
+UI_input_model -down-> UI_input_model:invalid input
+UI_input_model -down-> UI_input_seats
+UI_input_seats -down-> UI_input_seats:invalid input
+UI_input_seats -down-> created_airplane
+created_airplane --> LL_airplane_checker
+LL_airplane_checker --> UI_input_name: airplane creation unsuccessfull
+LL_airplane_checker --> DL_airplane_handler
+DL_airplane_handler --> DB
+DB --> [*]
+@enduml

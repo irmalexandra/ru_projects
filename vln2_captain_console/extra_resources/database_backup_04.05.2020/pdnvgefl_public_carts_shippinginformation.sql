@@ -1,0 +1,1 @@
+INSERT INTO public.carts_shippinginformation (id, first_name, last_name, address_1, address_2, city, postcode, country) VALUES (1, 'Loki', 'Hopkins', 'Blönduhlíð 23', 'derp', 'Reykjavík', 105, 'Ísland');

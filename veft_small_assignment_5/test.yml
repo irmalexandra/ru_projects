@@ -1,0 +1,38 @@
+version: '3'
+services:
+  api-gateway:
+    build: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "7000:5000"
+    networks:
+      - "flamingo-network"
+  customer-service:
+    build: ./customer-service
+    container_name: customer-service
+    networks:
+      - "flamingo-network"
+  customer-db:
+    image: postgres
+    container_name: customer-db
+    networks:
+      - "flamingo-network"
+    volumes:
+      - ./customer-db/db-scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      - POSTGRES_DB=customer_db
+      - POSTGRES_PASSWORD=Abc.12345
+      - POSTGRES_USER=postgres
+  message-broker:
+    image: rabbitmq
+    container_name: message-broker
+    networks:
+      - "flamingo-network"
+    hostname: message-broker
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=pass
+      - RABBITMQ_DEFAULT_VHOST=/
+networks:
+  flamingo-network:
+    driver: bridge

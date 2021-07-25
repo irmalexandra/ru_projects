@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DimensionZone
+  - Ball
+  - Paddle
+  - GameOverMenu
+  - LevelCompleteMenu
+  - LevelStartMenu
+  - PauseMenu
+  - Door
+  - ButtonFace
+  - Button
+  - TutorialTopMid
+  - ScoreSystem
+  - Pear
+  - MultiDoor
+  - Pusher
+  - PhysicsObject
+  - WinPortal
+  - MenuButton
+  - Spawner
+  - Slider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - BuildingComponents
+  - Interactables
+  - ExplosionFragments
+  - Doors
+  - DimensionZone
+  - Paddles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 446795229
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

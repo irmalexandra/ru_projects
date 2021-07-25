@@ -1,0 +1,16 @@
+<div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12 padding p-2 text-center justify-content-center">
+  <div class="game-card-img-frame">
+    <a href="/games/{{ game.id }}">
+      <img class="card-img-top img-fluid rounded mx-auto d-block" src="{{ game.product_display_image }}">
+    </a>
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">{{ game.name }}
+      <br>
+      <small><b>{{ game.console_id }}</b></small>
+    </h4>
+    <p class="product-description text-left">{{ game.description }}</p>
+    <p>{{ game.price }} kr.</p>
+    <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+  </div>
+</div>

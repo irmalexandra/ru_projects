@@ -1,0 +1,14 @@
+@startuml employees
+hide empty description
+
+[*] --> Available
+Available -> Not_available
+Available : Reykjavik
+Not_available -> Available
+Not_available --> In_air
+In_air -> Not_available
+In_air -> At_destination
+At_destination -> In_air
+
+@enduml
+

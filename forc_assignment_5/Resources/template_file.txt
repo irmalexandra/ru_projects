@@ -1,0 +1,86 @@
+6
+Name: Wolf
+Creature
+Life: 4-6
+Strength: 4-7
+Intelligence: 3-5
+Offensive actions count: 3
+Bite
+Claw
+Intimidate
+Defensive actions count: 2
+Evade
+Cover
+Natural
+Disquiet: 3-6
+
+Name: Ghost
+Creature
+Life: 5-8
+Strength: 3-5
+Intelligence: 6-8
+Offensive actions count: 2
+Spook
+Haunt
+Defensive actions count: 1
+Evade
+Unnatural
+Disquiet: 6-8
+
+Name: Cthulhu
+Eldritch Horror
+Life: 8-10
+Strength: 6-10
+Intelligence: 5-7
+Offensive actions count: 5
+Punch
+Spook
+Insult
+Intimidate
+Claw
+Defensive actions count: 2
+Evade
+Cover
+Unnatural
+Disquiet: 10-10
+Traumatism: 1-2
+
+Name: Inspector
+Person
+Life: 5-8
+Strength: 3-6
+Intelligence: 5-8
+Offensive actions count: 3
+Punch
+Insult
+Punch
+Defensive actions count: 2
+Evade
+Cover
+
+Name: Nurse
+Person
+Life: 5-7
+Strength: 2-5
+Intelligence: 5-7
+Offensive actions count: 3
+Punch
+Insult
+Claw
+Defensive actions count: 3
+Mend
+Bolster
+Evade
+
+Name: Priest
+Person
+Life: 6-7
+Strength: 1-3
+Intelligence: 6-8
+Offensive actions count: 2
+Preach
+Bless
+Defensive actions count: 2
+Cover
+Pray
+

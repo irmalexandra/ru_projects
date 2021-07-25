@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalRadiation.WebApi", "TechnicalRadiation.WebApi\TechnicalRadiation.WebApi.csproj", "{C40290C4-4046-493F-94E5-C2E5937CBF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalRadiation.Models", "TechnicalRadiation.Models\TechnicalRadiation.Models.csproj", "{497B955E-2509-4443-A960-B17C4862A5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalRadiation.Repositories", "TechnicalRadiation.Repositories\TechnicalRadiation.Repositories.csproj", "{7FE5CAE3-6CEF-414F-87F0-E0AC2E451186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalRadiation.Services", "TechnicalRadiation.Services\TechnicalRadiation.Services.csproj", "{37082444-2926-4555-9424-010B8A18B2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C40290C4-4046-493F-94E5-C2E5937CBF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40290C4-4046-493F-94E5-C2E5937CBF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40290C4-4046-493F-94E5-C2E5937CBF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40290C4-4046-493F-94E5-C2E5937CBF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497B955E-2509-4443-A960-B17C4862A5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497B955E-2509-4443-A960-B17C4862A5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497B955E-2509-4443-A960-B17C4862A5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497B955E-2509-4443-A960-B17C4862A5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE5CAE3-6CEF-414F-87F0-E0AC2E451186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE5CAE3-6CEF-414F-87F0-E0AC2E451186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE5CAE3-6CEF-414F-87F0-E0AC2E451186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE5CAE3-6CEF-414F-87F0-E0AC2E451186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37082444-2926-4555-9424-010B8A18B2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37082444-2926-4555-9424-010B8A18B2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37082444-2926-4555-9424-010B8A18B2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37082444-2926-4555-9424-010B8A18B2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

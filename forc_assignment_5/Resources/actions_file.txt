@@ -1,0 +1,141 @@
+18
+Name: Bite
+Type: Offensive
+Cooldown: 2
+Physical
+Hit Modifier: 5
+Damage: 1
+
+Name: Claw
+Type: Offensive
+Cooldown: 2
+Physical
+Hit Modifier: 2
+Damage: 2
+
+Name: Handgun
+Type: Offensive
+Cooldown: 2
+Physical
+Hit Modifier: 5
+Damage: 3
+
+Name: Punch
+Type: Offensive
+Cooldown: 2
+Physical
+Hit Modifier: 1
+Damage: 1
+
+Name: Intimidate
+Type: Offensive
+Cooldown: 4
+Mental
+Hit Modifier: 5
+Damage: 2
+
+Name: Insult
+Type: Offensive
+Cooldown: 2
+Mental
+Hit Modifier: 3
+Damage: 1
+
+Name: Spook
+Type: Offensive
+Cooldown: 1
+Mental
+Hit Modifier: 5
+Damage: 1
+
+Name: Haunt
+Type: Offensive
+Cooldown: 5
+Mental
+Hit Modifier: 5
+Damage: 4
+
+Name: Bless
+Type: Offensive
+Cooldown: 3
+Mental
+Hit Modifier: 6
+Damage: 4
+
+Name: Preach
+Type: Offensive
+Cooldown: 1
+Mental
+Hit Modifier: 6
+Damage: 2
+
+Name: Slap
+Type: Offensive
+Cooldown: 1
+Physical
+Hit Modifier: 3
+Damage: 2
+
+Name: Pray
+Type: Defensive
+Cooldown: 2
+Physical
+Defense Modifier: 3
+Attack Modifier: 0
+Health Recovery: 0
+Duration: 1
+
+Name: Mend
+Type: Defensive
+Cooldown: 2
+Physical
+Defense Modifier: 0
+Attack Modifier: 0
+Health Recovery: 2
+Duration: 1
+
+Name: Bolster
+Type: Defensive
+Cooldown: 6
+Mental
+Defense Modifier: 0
+Attack Modifier: 0
+Health Recovery: 3
+Duration: 3
+
+Name: Evade
+Type: Defensive
+Cooldown: 2
+Physical
+Defense Modifier: 3
+Attack Modifier: 0
+Health Recovery: 0
+Duration: 1
+
+Name: Cover
+Type: Defensive
+Cooldown: 2
+Physical
+Defense Modifier: 1
+Attack Modifier: 0
+Health Recovery: 0
+Duration: 1
+
+Name: Hope
+Type: Defensive
+Cooldown: 3
+Mental
+Defense Modifier: 2
+Attack Modifier: 1
+Health Recovery: 0
+Duration: 2
+
+Name: Hide
+Type: Defensive
+Cooldown: 1
+Physical
+Defense Modifier: 2
+Attack Modifier: 2
+Health Recovery: 0
+Duration: 1
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pcWra1xpQrGXFxSysoBBi9hl0NklqjXjXPqCYYJaUBSdeVZJEH8g5lGTNxfu/DmajV7EM9+RYS6uB3unQ7Zpaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rikki\\Documents\\RU\\RU-Projects\\FMAL-Assignment-1\\FMAL-Assignment-1\\FMAL-Assignment-1\\FMAL-Assignment-1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rikki\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

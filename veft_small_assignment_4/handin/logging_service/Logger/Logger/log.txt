@@ -1,0 +1,12 @@
+Log:{"_id":"5f8e0050b24e897954f618a1","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:08:32.086Z","__v":0}
+Log:{"_id":"5f8e0082b24e897954f618a3","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:09:21.999Z","__v":0}
+Log:{"_id":"5f8e00eeb24e897954f618a5","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:11:10.532Z","__v":0}
+Log:{"_id":"5f8e00f7b24e897954f618a7","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:11:19.744Z","__v":0}
+Log:{"_id":"5f8e0102b24e897954f618a9","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:11:30.072Z","__v":0}
+Log:{"_id":"5f8e0102b24e897954f618ab","customerEmail":"lokih@ru.is","totalPrice":379500,"orderDate":"2020-10-19T21:11:30.678Z","__v":0}
+Log:{"_id":"5f92ac925261d022c01bbc36","customerEmail":"lokih@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:12:34.744Z","__v":0}
+Log:{"_id":"5f92ad215261d022c01bbc39","customerEmail":"emilk18@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:14:57.113Z","__v":0}
+Log:{"_id":"5f92aea40fdf6658707c7a61","customerEmail":"emilk18@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:21:24.544Z","__v":0}
+Log:{"_id":"5f92af000fdf6658707c7a64","customerEmail":"emilk18@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:22:56.725Z","__v":0}
+Log:{"_id":"5f92af210fdf6658707c7a67","customerEmail":"emilk18@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:23:29.416Z","__v":0}
+Log:{"_id":"5f92af590fdf6658707c7a6a","customerEmail":"emilk18@ru.is","totalPrice":1013370,"orderDate":"2020-10-23T10:24:25.068Z","__v":0}

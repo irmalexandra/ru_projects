@@ -1,0 +1,70 @@
+Employee
+Name:
+SSN:
+HomeNumber:
+MobileNumber:
+Email:
+Title:
+License:
+Availability:
+
+Employees
+Name    SSN    Title   License    Availability
+Rikki   224    FlightAttendant  -   Working
+
+Destination
+Country:
+Airport:
+FlightTime:
+Distance:
+ContactName:
+ContactNumber:
+
+Destinations
+Country     Airport     Distance    FlightTime      ContactName     ContactNumber 
+Ísland      KEF         1000         20              Rikki           11123123
+--------------------------------------------------------------------------------------------
+Voyage
+Destination:
+
+Airplane:
+DepartureDate:
+DepartureTime:
+ReturnDate:
+ReturnTime:
+
+DepartureFlightNumber:
+ReturnFlightNumber:
+
+AvailableSeats:
+SoldSeats:
+
+Status:
+
+Pilot:
+Co-Pilot:
+Purser:
+CabinCrew:
+        Person1
+        Person2
+        Person3
+----------------------------------------------------------------------------------
+Voyages
+Date           Country      Airport    Staffed
+25/11/2019    Greenland     Kulusuk     Yes
+
+---------------------------------------------------------------------------------
+Airplane
+Name:
+Make:
+Model:
+TotalSeats:
+---------------------------------------------------------------------------
+Airplanes
+Name    Make    Model   TotalSeats  Status  Destination  Flight number  Date available  Time available
+TF100   Boeing  747      300        In air  KUL          FI354          12/02/2019      17:30
+
+----------------------------------------------------------
+Pilots
+Name    Title   Make    Model 
+---------------------------------------------------------------

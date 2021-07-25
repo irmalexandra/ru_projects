@@ -1,0 +1,201 @@
+  current directory: root
+  Listing the contents of current directory,  root
+  Making subdirectory kennsla
+  Making subdirectory nam
+  Listing the contents of current directory,  root
+kennsla
+nam
+  switching to directory nam
+  current directory: nam
+  Making subdirectory GSKI
+  Listing the contents of current directory,  nam
+GSKI
+  switching to directory GSKI
+  current directory: GSKI
+  Making subdirectory PA1
+  Making subdirectory PA2
+  Making subdirectory PA3
+  Listing the contents of current directory,  GSKI
+PA1
+PA2
+PA3
+  switching to directory ..
+  current directory: nam
+  Making subdirectory STRJAL
+  switching to directory STRJAL
+  current directory: STRJAL
+  Listing the contents of current directory,  STRJAL
+  Making subdirectory storu1
+  Making subdirectory storu2
+  Making subdirectory litlu1
+  Making subdirectory storu1
+  Subdirectory with same name already in directory
+  Making subdirectory litlu2
+  Making subdirectory litlu3
+  Making subdirectory litlu2
+  Subdirectory with same name already in directory
+  Making subdirectory litlu3
+  Subdirectory with same name already in directory
+  Making subdirectory litlu3
+  Subdirectory with same name already in directory
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+litlu3
+storu1
+storu2
+  switching to directory ..
+  current directory: nam
+  switching to directory GSKI
+  current directory: GSKI
+  Listing the contents of current directory,  GSKI
+PA1
+PA2
+PA3
+  switching to directory ..
+  current directory: nam
+  switching to directory STRJAL
+  current directory: STRJAL
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+litlu3
+storu1
+storu2
+  switching to directory ..
+  current directory: nam
+  switching to directory ..
+  current directory: root
+  Listing the contents of current directory,  root
+kennsla
+nam
+  switching to directory kennsla
+  current directory: kennsla
+  Making subdirectory forrit
+  Making subdirectory fyrirlestrar
+  Making subdirectory verkefni
+  Listing the contents of current directory,  kennsla
+forrit
+fyrirlestrar
+verkefni
+  switching to directory ..
+  current directory: root
+  switching to directory nam
+  current directory: nam
+  Listing the contents of current directory,  nam
+GSKI
+STRJAL
+  switching to directory TRJAL
+  No folder with that name exists
+  current directory: nam
+  switching to directory STRJA
+  No folder with that name exists
+  current directory: nam
+  switching to directory STRJAL
+  current directory: STRJAL
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+litlu3
+storu1
+storu2
+  removing directory litlu1
+  directory successfully removed!
+  Listing the contents of current directory,  STRJAL
+litlu2
+litlu3
+storu1
+storu2
+  removing directory litlu2
+  directory successfully removed!
+  Listing the contents of current directory,  STRJAL
+litlu3
+storu1
+storu2
+  Making subdirectory litlu2
+  Listing the contents of current directory,  STRJAL
+litlu2
+litlu3
+storu1
+storu2
+  removing directory storu2
+  directory successfully removed!
+  Listing the contents of current directory,  STRJAL
+litlu2
+litlu3
+storu1
+  Making subdirectory litlu1
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+litlu3
+storu1
+  removing directory listlsllu3
+  No folder with that name exists
+  removing directory litlu
+  No folder with that name exists
+  removing directory listlu3
+  No folder with that name exists
+  removing directory litlu3
+  directory successfully removed!
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+storu1
+  Making subdirectory storu2
+  Listing the contents of current directory,  STRJAL
+litlu1
+litlu2
+storu1
+storu2
+  switching to directory ..
+  current directory: nam
+  Listing the contents of current directory,  nam
+GSKI
+STRJAL
+  removing directory GSKI
+  directory successfully removed!
+  Listing the contents of current directory,  nam
+STRJAL
+  switching to directory GSKI
+  No folder with that name exists
+  current directory: nam
+  Listing the contents of current directory,  nam
+STRJAL
+  switching to directory ..
+  current directory: root
+  switching to directory kennsla
+  current directory: kennsla
+  Listing the contents of current directory,  kennsla
+forrit
+fyrirlestrar
+verkefni
+  switching to directory ..
+  current directory: root
+  Listing the contents of current directory,  root
+kennsla
+nam
+  removing directory kennsla
+  directory successfully removed!
+  Listing the contents of current directory,  root
+nam
+  switching to directory kennsla
+  No folder with that name exists
+  current directory: root
+  Listing the contents of current directory,  root
+nam
+  removing directory kennsla
+  No folder with that name exists
+  Listing the contents of current directory,  root
+nam
+  switching to directory kennsla
+  No folder with that name exists
+  current directory: root
+  switching to directory nam
+  current directory: nam
+  Listing the contents of current directory,  nam
+STRJAL
+  switching to directory ..
+  current directory: root
+  switching to directory ..
+Exiting directory program

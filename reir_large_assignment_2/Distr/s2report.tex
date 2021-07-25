@@ -1,0 +1,346 @@
+% Skeleton report for Assignment X1, in Reiknirit, fall 2018, at Reykjavik University
+%  (c) 2017, Magnus M. Halldorsson
+%
+% Builds on the assignment Percolation at Princeton University, (c) Kevin Wayne
+%
+% Format is based on the following document:
+% A basic LaTeX document for a handin with a standard RU title page
+%  (c) 2013, Tómas Ken Magnússon, 
+
+% If you want the title to appear on a separate page, change notitlepage to titlepage
+\documentclass[11pt,a4paper,notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% If your hand-in is in icelandic change english to icelandic
+% Note: This has nothing to do with Icelandic characters, they
+% can always be used. This just tells other packages what
+% language you are using and changes the hyphenation used by LaTeX
+% If icelandic is selected2 a shorthand, "` and "', is also included
+% for Icelandic quotation marks. They can also obtained by using
+% ,, and ``
+\usepackage[english]{babel}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{enumerate}
+% To use the whole A4-page
+% See: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/geometry/geometry.pdf
+% and http://en.wikibooks.org/wiki/LaTeX/Document_Structure
+\usepackage{geometry}
+% For header and footer
+% See: ftp://ctan.tug.org/tex-archive/macros/latex/contrib/ fancyhdr/fancyhdr.pdf
+% and http://en.wikibooks.org/wiki/LaTeX/Document_Structure
+\usepackage{fancyhdr}
+% For prettier tables
+% See: http://ctan.mackichan.com/macros/latex/contrib/booktabs/booktabs.pdf
+% and  http://en.wikibooks.org/wiki/LaTeX/Tables
+%\usepackage{booktabs}
+\usepackage{listings} % For code listing
+
+% \usepackage{sagetex}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{subfig}  % To fit two tables side-by-side
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Setup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set the margins of the paper. By default LaTeX uses huge margins
+\geometry{includeheadfoot, margin=2.5cm}
+% you can also use
+% \geometry{a4paper}
+% End of margins setup
+
+% Settings for listings
+\lstset{language=Java,numbers=left,backgroundcolor=\color{light-gray},
+        basicstyle=\scriptsize\ttfamily,frame=single,tabsize=4,
+        captionpos=t, numbers=left,
+        keywordstyle=\color{javapurple}\bfseries,
+        stringstyle=\color{javared},
+        commentstyle=\color{javagreen},
+        morecomment=[s][\color{javadocblue}]{/**}{*/},}
+% End of settings for listings
+
+% Custom colors for listings
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{javared}{rgb}{0.6,0,0} % for strings
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
+\definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % javadoc
+% End of custom colors for listings
+
+
+% Fill in any relevant information
+% Leave the fields inside the {} empty if they do not apply
+\newcommand{\semester}{Fall 2018}
+\newcommand{\coursename}{Reiknirit}
+\newcommand{\courseid}{T-301-REIR}
+\newcommand{\assignment}{S2: Pattern Recognition}
+\newcommand{\problemtitle}{Problem}
+\newcommand{\dateofcompilation}{\today}
+
+%% Information about you --- FILL THIS OUT
+\newcommand{\ssn}{kt. 123456-7890}              %%%  CHANGE THIS """
+\newcommand{\group}{1}
+\newcommand{\teachingassistant}{TA: Eiríkur Fjalar}   %%%  CHANGE THIS """
+\newcommand{\students}{
+    Halli og Laddi                             %%%  CHANGE THIS """
+}
+\newcommand{\studentemail}{
+    myEmails@ru.is                            %%%  CHANGE THIS """
+}
+
+% Setup header and footer
+% Headers
+\pagestyle{fancy} % To get the header and footer
+\chead{\small \textsc{\assignment}}
+\rhead{\small \textsc{\coursename}}
+\lhead{\small \textsc{\studentemail}}
+% Footers
+%\lfoot{Left footer text}
+%\cfoot{\thepage} % This is the default behaviour
+%\rfoot{Right footer text}
+
+
+% Custom dot for itemize
+\renewcommand{\labelitemi}{$\cdot$}
+
+% If you don't want a line below the header or above the footer,
+% change the appropriate header/footerrulewidth to 0pt
+\setlength{\headheight}{15.2pt} % This is set to avoid a warning
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% End of header and footer setup
+
+% Setup Problem/Solution environments // You probably don't need this
+%\theoremstyle{plain}
+%\newtheorem{problem}{Dæmi}
+%\theoremstyle{remark}
+%\newtheorem*{solution}{Lausn}
+% End of Problem/Solution environments setup
+%\theoremstyle{plain}
+%\newtheorem*{proposition}{Proposition}
+
+\DeclareCaptionLabelFormat{andtable}{#1~#2  \&  \tablename~\thetable}
+
+% Custom problem (so you can provide the problem name)
+%\newenvironment{cproblem}[1]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries \problemtitle}\hskip \labelsep {\bfseries#1.}]\begin{itshape}}{\end{itshape}\end{trivlist}}
+% End of Problem/Solution environments setup
+
+% The title page
+\newcommand{\maketitlepage}[1]
+{
+    \begin{titlepage}
+
+        \begin{center}
+            \includegraphics[width=0.55\textwidth]{./rulogo.png}\\[1.5cm]
+
+            \textsc{\huge \semester}\\[0.8cm]
+
+            {\textsc{\Huge \courseid, \coursename}}\\[0.4cm]
+            \textsc{\LARGE }\\[2.5cm]
+
+            \textbf{\textsc{\Huge #1}}\\[3cm]
+
+
+            \textsc{\huge \students}\\[0.4cm]
+            \textsc{\LARGE \ssn}\\[0.4cm]
+            \textsc{\LARGE Group \group}\\[1cm]
+            \textsc{\Large \dateofcompilation}
+
+
+        \end{center}
+
+        \vfill
+
+        % You may also want to add the name of your teaching assistant
+        \begin{flushleft}
+            \textsc{\Large \teachingassistant}
+        \end{flushleft}
+
+    \end{titlepage}
+}
+\newcommand{\command}[1]{\texttt{\textbackslash{}#1}}
+
+\newcommand{\explanation}[1]{}  %% Use this when turning in the report
+%\newcommand{\explanation}[1]{\begin{quote}\emph{#1} \end{quote}}  %% Use this to include directions
+
+%%%%%%%%%%%%%%%%%%%%%%%% END OF SETUP %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+% Create the title page
+    \maketitlepage{\assignment}
+
+\explanation{Directions on performing the assignment are showed here in italics (like this). These should not be included in the report you submit.}
+
+\section{Implementation}
+
+\subsection*{Brute force}
+
+\explanation{Explain \emph{briefly} how you implemented brute force.
+            Describe how you implemented compareTo() and the
+            slopeTo() methods in the Point data type.}
+
+\subsection*{Sorting solution}
+\explanation{Explain \emph{briefly} how you implemented the sorting solution.
+           What steps did you do to avoid printing permutations
+           and subsegments?}
+
+\section{Empirical Analysis}
+\explanation{Fill in the table below with actual running times in
+seconds when reasonable (say 180 seconds or less).
+You can round to the nearest tenth of a second.}
+
+\begin{table}[htbp]
+%  \small
+  \centering
+  \caption{!Insert caption!}
+%%  \subfloat[!Insert caption!]{   %% CHANGE THE CAPTIONS
+        \label{tab:table1}
+        \begin{tabular}{|r| c | c |}
+        \hline
+        $N$ & brute & sorting \\ 
+        \hline
+        150 & $\ldots$ & $\ldots$ \\
+        200 & $\ldots$ & $\ldots$ \\
+        300 & $\ldots$ & $\ldots$ \\
+        400 & $\ldots$ & $\ldots$ \\
+        800 & $\ldots$ & $\ldots$ \\
+        1600 & $\ldots$ & $\ldots$ \\
+        3200 & $\ldots$ & $\ldots$ \\
+        6400 & $\ldots$ & $\ldots$ \\
+        12800 & $\ldots$ & $\ldots$ \\
+        \hline
+        \end{tabular}
+%%  }
+\end{table}
+
+
+\explanation{
+ Estimate (using tilde notation) the running time (in seconds) of
+ your two main functions as a function of the number of points N.
+% 
+  Explain how you derive any exponents.}
+
+\paragraph{Brute:} \quad $\sim $
+\bigskip
+
+\paragraph{Sorting:} $\sim$
+
+
+\paragraph{Theoretical}
+%/**********************************************************************
+\explanation{Give the order of growth of the worst-case running
+                 time of your programs as a function of N. Justify
+                 your answer briefly.}
+% **********************************************************************/
+
+\paragraph{Brute:} \ 
+\bigskip
+
+\paragraph{Sorting:}
+
+
+
+\section{About This Solution}
+
+Have you taken (part of) this course before:
+\smallskip
+
+Hours to complete assignment (optional):
+
+
+% /******************************************************************************
+%  *  After reading the course rules on collaboration policy, answer the
+%  *  following short quiz. This counts for a portion of your grade.
+%  *  Write down the answers in the space below.
+%  *****************************************************************************/
+ 
+\subsection{Known Bugs / Limitations.}
+% /******************************************************************************
+\explanation{Known bugs / limitations. For example, if your program prints
+  out different representations of the same line segment when there
+ are 5 or more points on a line segment, indicate that here.}
+%  *  Known bugs / limitations.
+%  *****************************************************************************/
+
+\subsection{Help Received}
+% /******************************************************************************
+\explanation{
+Describe whatever help (if any) that you received.
+Don't include readings, lectures, and classes, but do
+include any help from people (including course staff, lab TAs,
+classmates, and friends) and attribute them by name.}
+%  *****************************************************************************/
+
+
+\subsection{Problem Encountered}
+% /******************************************************************************
+\explanation{
+Describe any serious problems you encountered.                    }
+%  *****************************************************************************/
+
+
+
+\subsection{Comments}
+% /******************************************************************************
+\explanation{
+List any other comments here. Feel free to provide any feedback   
+on how much you learned from doing the assignment, and whether    
+you enjoyed doing it.}
+% *****************************************************************************/
+
+
+
+
+\end{document}
+
+%%%% Optional material
+
+% Example plot
+%    \begin{figure}[!ht]
+%        \label{fig:plot1}
+%        \centering
+%        \includegraphics[width=0.6\textwidth]{chart.pdf}
+%        \caption{This is an imported figure}
+%    \end{figure}
+
+% Example reference:    See Listing \hyperref[lst:random]{1}.
+
+    \pagebreak
+    \section*{Appendix I: Source code listings}
+    Optional.
+
+    \subsection*{Acknowledgement}
+
+    % Environment for listing code
+    \begin{lstlisting}[caption={This is a caption.},label={lst:array1}]
+public class This is a class {
+
+    // This is a comment
+    public static double thisIsAFunction(int N) {
+        QuickUnionUF uf = new QuickUnionUF(N);
+        return something;
+    }
+    public static void main(String[] args) { 
+        int T = 50;
+    }
+} 
+    \end{lstlisting}
+
+
+    \pagebreak
+    \section*{Appendix II}
+    Optional.
+
+    \listoftables
+    \listoffigures
+    \lstlistoflistings
+    \bibliographystyle{plain}
+    \bibliography{s1.bib}
+
+\end{document}
+

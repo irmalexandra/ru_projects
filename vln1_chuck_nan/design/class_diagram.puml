@@ -1,0 +1,297 @@
+@startuml NaNAirlines
+
+class chuckNaN{
+  UIMain
+
+}
+
+package UI_layer #fcb603 {
+ 
+  chuckNaN -down- UIMain
+  class UIMain{
+    UIEmployees
+    UIVoyages
+    UIDestinations
+    UIAirplanes
+    display_main_menu()
+  }
+
+  class UIEmployees{
+    LLAPI
+    display_employee_sub_menu()
+    display_employee_search_menu()
+    
+    display_employee_by_ssn(SSN)
+    
+    display_all_employees()
+    display_all_employees_by_date()
+    display_all_employees_by_title()
+    
+    display_pilots_by_airplane_type_sorted()
+    display_pilots_by_airplane_type()
+    
+    display_work_schedule(employee_ID)
+
+    display_edit_employee(employee_ID)
+    
+    create_employee()
+    change_airplane_type()  
+  }
+  class UIVoyages{
+    LLAPI
+    display_voyage_sub_menu()
+    display_voyage_search_menu()
+
+    display_voyage(voyage_ID)
+
+    display_all_voyages()
+    display_all_empty_voyages()
+    display_all_voyages_by_period()
+    display_all_voyages_by_destination()
+    
+    create_voyage()
+    add_crew()
+    duplicate_voyage()
+    repeat_voyage()
+    
+  }
+  class UIDestinations{
+    LLAPI
+    display_destination_sub_menu()
+    display_destination_search_menu()
+
+    display_destination(destination_ID)
+    
+    display_destinations(destinations_list)
+    
+    create_destination()
+    change_contact(destination_ID)
+    change_emergency_number(destination_ID)
+    
+  }
+  class UIAirplanes{
+    LLAPI
+    display_airplanes_sub_menu()
+
+    display_airplanes(airplanes_list)
+    
+    create_airplane()
+  }
+  UIMain -- UIEmployees
+  UIMain -- UIVoyages
+  UIMain -- UIDestinations
+  UIMain -- UIAirplanes
+}
+
+package Logic_layer #70e697 {
+
+  class LLAPI{
+    LLEmployees
+    LLVoyages
+    LLDestinations
+    LLAirplanes
+
+
+  }
+
+  class LLEmployees{
+    DLAPI
+    validate_employee()
+    
+    get_employee(employee_ID)
+    
+    get_all_employees()
+    
+    filter_all_employees_by_date()
+    filter_all_employees_by_title()
+    
+    filter_pilots_by_airplane_type()
+    sort_pilots_by_airplane_type()
+
+    create_work_schedule()
+  }
+  class LLVoyages{
+    DLAPI
+    validate_voyage()
+
+    get_voyage(voyage_ID)
+
+    get_all_voyages()
+    
+    filter_all_empty_voyages()
+    filter_all_voyages_by_period()
+    filter_all_voyages_by_destination()
+
+    duplicate_voyage()
+    repeat_voyage()
+    add_crew()
+
+  }
+  class LLDestinations{
+    DLAPI
+    validate_destination()
+
+    get_destination(destination_ID)
+    
+    get_all_destinations()
+
+  }
+  class LLAirplanes{
+    DLAPI
+    validate_airplane()
+
+    get_all_airplanes()
+  }
+
+  LLAPI -- LLEmployees
+  LLAPI -- LLVoyages
+  LLAPI -- LLDestinations
+  LLAPI -- LLAirplanes
+  
+
+}
+
+package Data_layer #99c0ff{
+
+  class DLAPI{
+    DLEmployees
+    DLVoyages
+    DLDestinations
+    DLAirplanes
+
+    all_employees_list = DLEmployeees.pull_all_employees[]
+    all_voyages_list = DLVoyages.pull_all_voyages[]
+    all_destinations_list = DLDestinations.pull_all_destinations[]
+    all_airplanes_list = DLAirplanes.pull_all_airplanes[]
+  }
+
+  class DLEmployees{
+    pull_all_employees()
+    push_all_employees()
+  }
+  class DLVoyages{
+    pull_all_voyages()
+    push_all_voyages()
+    
+  }
+  class DLDestinations{
+    pull_all_destinations()
+    push_all_destinations()
+    
+  }
+  class DLAirplanes{
+    pull_all_airplanes()
+    push_all_airplanes()
+  }
+
+  DLAPI -- DLEmployees
+  DLAPI -- DLVoyages
+  DLAPI -- DLDestinations
+  DLAPI -- DLAirplanes
+  
+}
+
+UIEmployees -down- LLAPI
+UIVoyages -down- LLAPI
+UIAirplanes -down- LLAPI
+UIDestinations -down- LLAPI
+
+LLEmployees -down- DLAPI
+LLVoyages -down- DLAPI
+LLDestinations -down- DLAPI
+LLAirplanes -down- DLAPI
+
+
+
+
+
+
+package Models #f58ef0{
+
+
+class Employee {
+  -ID
+  -name
+  -SSN
+  -address
+  -home_number
+  -mobile_number
+  -email
+  -title
+  -availability
+
+}
+
+class FlightAttendant{
+}
+
+class Pilot{
+  -airplane_type
+}
+
+class Destination{
+  -ID
+  -country
+  -airport
+  -flight_time
+  -distance
+  -contact_name
+  -contact_number
+
+}
+
+class Voyage{
+  -ID
+
+  -destination = Destination
+  -airplane = Airplane
+  
+  -departure = Flight
+  -return = Flight
+
+  -status
+
+  -pilot = Pilot
+  -co_pilot = Pilot
+  -purser = FlightAttendant
+  -cabin_crew_list = FlightAttendant
+  generate_flight_number()
+}
+
+class Flight{
+  -ID
+  -flight_num
+  -departure_airport
+  -arrival_airport
+  -departure_date
+  -departure_time
+  -arrival_date
+  -arrival_time
+}
+
+class Airplane{
+  -ID
+  -name
+  -make
+  -model
+  -max_seats
+  
+}
+
+FlightAttendant -down-|> Employee
+Pilot -down-|> Employee
+FlightAttendant -up- Voyage
+Pilot -up- Voyage
+Destination *-left- Voyage
+Voyage *-down- Flight
+Airplane *-right- Voyage
+
+}
+
+
+UI_layer -- Models
+Logic_layer -- Models
+Data_layer -- Models
+
+
+@enduml

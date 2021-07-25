@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <h2>Update my profile</h2>
+        <br>
+        <form class="form-group" method="post">
+            {% csrf_token %}
+            <fieldset>
+                {% for field in user_form %}
+                    <label> {{ field.label_tag }}</label>
+                    {{ field }}
+                    <br>
+                {% endfor %}
+
+                {% for field in profile_form %}
+                    <label> {{ field.label }}</label>
+                    {% if field.label == 'Profile image' %}
+                        {{ field }}
+                        <small class="form-text text-muted">Insert image as a URL</small>
+                    {% else %}
+                        {{ field }}
+                    {% endif %}
+                    <br>
+                {% endfor %}
+
+            </fieldset>
+            <div class="row">
+                <div class="col-auto mr-auto">
+                    <button type="reset" class="btn btn-primary return-button">Return to profile</button></div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Save changes</button></div>
+            </div>
+        </form>
+        <br>
+    </div>
+    <br>
+    <script src="{% static 'js/update_profile.js'%}"></script>
+    <script src="{% static 'js/in_field_placeholder.js' %}"></script>
+    <script src="{% static 'js/back_function.js' %}"></script>
+{% endblock %}

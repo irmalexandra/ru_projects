@@ -1,0 +1,11 @@
+@startuml
+[*] --> Not_Logged_In : Enter Site
+Not_Logged_In --> Standard_User : Login
+Standard_User --> Not_Logged_In : Logout
+Not_Logged_In --> Elevated_User : Login
+Elevated_User --> Not_Logged_In : Logout
+Not_Logged_In --> [*] : Leave Site
+Standard_User --> [*] : Leave Site
+Elevated_User --> [*] : Leave Site
+Elevated_User : Sjá viðauka (Næstu Skref)
+@enduml

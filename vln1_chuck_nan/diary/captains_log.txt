@@ -1,0 +1,213 @@
+Captains Log, Stardate 25.11.2019
+
+Verkefni dagsins:
+	Hópa okkur saman og fara yfir verkefnið
+	Reyna að skipuleggja greiningar vikuna
+		
+	Vikuskipulag:
+	
+	Mánudagur:
+		Yfirferð á verkefni - Allir
+		Notendahópagreining - Loki - Rikki - Emil
+		Kröfulisti - Margrét - Svanhvít
+		Use Case - Allir
+
+	Þriðjudagur:
+		Stöðurit
+		Klasarit
+
+	Miðvikudagur:
+		Útlitshönnun
+
+	Fimtudagur:
+		Krísudagur
+
+	Föstudagur:
+		Fínpússun
+
+
+Captains Log, Stardate 26.11.2019
+
+Yfirferð gærdags:
+	Kláruð verkefni:
+		Notendahópar
+
+	Verkefni komin langt:
+		Kröfulistinn
+		Notkunartilvik
+	
+	Verkefni sem eru byrjuð:
+		Wireframes
+		Klasarit
+	
+	Verkefni sem eru ekki byrjuð:
+		Stöðurit
+
+Verkefni dagsins:
+	Fínpússa kröfulista
+	Notkunartilvik
+	Klasarit
+
+
+Captains Log, Stardate 27.11.2019
+
+Yfirferð gærdags: 
+	Kláruð verkefni:
+		Kröfulistinn
+
+	Verkefni komin langt:
+		Wireframes/Happy Path
+		Use Cases
+
+	Verkefni sem eru byrjuð:
+		Klasarit
+		Stöðurit
+
+Verkefni dagsins:
+	Tengja Use Cases við Wireframe/Happy Path
+	Klasarit
+	Stöðurit
+
+
+Captains Log, Stardate 28.11.2019
+
+Yfirferð gærdags:
+	Verkefni komin langt:
+		Wireframes/Happy Path
+		Use Cases
+		Klasarit
+		Stöðurit
+
+Verkefni dagsins:
+	Tengja Use Cases við Wireframe/Happy Path
+	Klasarit
+	Stöðurit
+
+
+Captains Log, Stardate 29.11.2019
+
+Yfirferð gærdags:
+	Verkefni komin langt:
+		Wireframes/Happy Path
+		Use Cases
+		Klasarit
+		Stöðurit
+
+Verkefni dagsins:
+	Fínpússun á öllu
+	Klára skilaskýrslu
+
+
+Captains Log, Stardate 02.12.2019
+
+Yfirferð gærdags:
+	Verkefni kláruð:
+		Wireframes/Happy Path
+		Use Cases
+		Klasarit
+		Stöðurit
+
+Verkefni dagsins:
+	Gera beinagrind forritsins
+	Byrja að vinna í gagnagrunni
+
+
+Captains Log, Stardate 03.12.2019
+
+Yfiferð gærdags:
+	Skipulagning á næstu dögum
+	Gera beinagrind forritsins
+	Byrja að vinna í gagnagrunni
+
+Verkefni dagsins:
+	Halda áfram að gera beinagrind forritsins
+	Halda áfram að vinna í gagnagrunni
+	Mastera git
+
+
+Captains Log, Stardate 04.12.2019
+
+Yfirferð gærdags:
+	Beinagrind forritsins kláruð
+	Tenging milli layera orðin fullvirk
+	Model controller búinn til
+	Lesa í og úr repository í data layer klárað
+
+Verkefni dagsins:
+	Klára UI structure
+	Implementa ID fyrir employees
+	Byrja á logic layer virkni
+	Finna útur Back og Home
+
+
+Captains Log, Stardate 05.12.2019
+
+Yfirferð gærdags:
+	DataLayer kláraður (þar til annað kemur í ljós)
+	UI structure kominn með svip, en tekur þó ekki við input
+
+Verkefni dagsins:
+	Koma UI layernum í lag 
+	Vinna að Logic layer í leið
+	Kroppa aðeins í validatorinn 
+
+
+Captains Log, Stardate 06.12.2019
+
+Yfirferð gærdags:
+	Unnið frekar í UI og logic layernum
+
+Verkefni dagsins:
+	Áframhaldandi vinna í UI og logic layernum 
+	Vinna í validatornum
+
+
+Captains Log, Stardate 09.12.2019
+
+Yfirferð gærdags:
+	Unnið frekar í UI, logic layernum og validator
+
+Verkefni dagsins:
+	Áframhaldandi vinna í UI og logic layernum
+	Búa til beinagrind af lokaskýrslu 
+
+
+Captains Log, Stardate 10.12.2019
+
+Yfirferð gærdags:
+	Áframhaldandi vinna í UI og logic layernum
+	Beinagrind búin til af lokaskýrslu 
+
+Verkefni dagsins:
+	Áframhaldandi vinna í UI og logic layernum
+
+
+Captains Log, Stardate 11.12.2019
+
+Yfirferð gærdags:
+	Unnið frekar í UI og logic layernum
+
+Verkefni dagsins:
+	Fínpúss og samræming á UI og logic layernum
+
+
+Captains Log, Stardate 12.12.2019
+
+Yfirferð gærdags:
+	Klárað að fínpússa og samræma UI og logic layerinn
+	
+Verkefni dagsins:
+	Fara yfir allt kerfið og athuga hvort allt virki
+	Samræma skýrsluna við kerfið
+
+
+Captains Log, Stardate 13.12.2019
+
+Verkefni gærdags:
+	Farið yfir allt kerfið og lögð lokahönd á forritunina
+	Skýrslan samræmd við kerfið
+
+Verkefni dagsins:
+	Gera myndband
+	Klára endanlega skýrslu
+	Skila öllu inn

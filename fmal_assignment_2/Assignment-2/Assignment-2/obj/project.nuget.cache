@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xrvGJMoUdnS+uhBuk5XAMrxtCW8tvSh6T7KWIAZuPl7dE/iL3/UdewJvTPkXOZeGFv7ZR75H8Wcmy+qL1P9uDg==",
+  "success": true,
+  "projectFilePath": "F:\\alexandra\\git_repositories\\FMAL-Assignment-2\\Assignment-2\\Assignment-2\\Assignment-2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexandra\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

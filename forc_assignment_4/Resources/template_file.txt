@@ -1,0 +1,61 @@
+8
+Name: Wolf
+Creature
+Life: 4-4
+Strength: 6-6
+Intelligence: 5-5
+Natural
+Disquiet: 2-2
+
+Name: Chthonian
+Eldritch Horror
+Life: 8-8
+Strength: 7-7
+Intelligence: 2-2
+Unnatural
+Disquiet: 10-10
+Traumatism: 1-1
+
+Name: Ghoul
+Creature
+Life: 4-4
+Strength: 4-4
+Intelligence: 2-2
+Unnatural
+Disquiet: 6-6
+
+Name: Shoggoth
+Eldritch Horror
+Life: 8-8
+Strength: 9-9
+Intelligence: 6-6
+Unnatural
+Disquiet: 10-10
+Traumatism: 2-2
+
+Name: NewestSpecies
+Creature
+Life: 1-2
+Strength: 5-6
+Intelligence: 3-4
+Natural
+Disquiet: 7-8
+
+Name: Nurse
+Person
+Life: 5-7
+Strength: 3-7
+Intelligence: 6-8
+
+Name: Reporter
+Person
+Life: 5-7
+Strength: 2-6
+Intelligence: 6-8
+
+Name: Professor
+Person
+Life: 4-6
+Strength: 1-5
+Intelligence: 8-10
+

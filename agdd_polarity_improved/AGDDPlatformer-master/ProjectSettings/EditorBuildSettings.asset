@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ButtonIntro.unity
+    guid: c8ddd3b98ff08f048a0bd1dda4f86837
+  - enabled: 1
+    path: Assets/Scenes/PlatformIntro.unity
+    guid: 00c0b87dc2347a94b9c17f2136c7d902
+  - enabled: 1
+    path: Assets/Scenes/KeyIntro.unity
+    guid: 339c627db024e6342a2c16419596565e
+  - enabled: 1
+    path: Assets/Scenes/SpikeIntro.unity
+    guid: 924991a354a0cff45b723d438492c162
+  - enabled: 1
+    path: Assets/Scenes/PlatformSpikes.unity
+    guid: a2dadfb11a026a84f93aec6e73298e63
+  - enabled: 1
+    path: Assets/Scenes/PlatButtonSpikes.unity
+    guid: 2f95b4f694dc2e340b5dfd5034c8c6f6
+  - enabled: 1
+    path: Assets/Scenes/AllYouHaveLearned.unity
+    guid: bafa941017050074b9851a6debcc9f08
+  - enabled: 1
+    path: Assets/Scenes/KeyMaze.unity
+    guid: a632c8486d5d4e445b55a941b32541bd
+  m_configObjects: {}

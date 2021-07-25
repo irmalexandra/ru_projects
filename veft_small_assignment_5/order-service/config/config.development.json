@@ -1,0 +1,8 @@
+{
+    "connectionString": "<can-be-replaced-with-your-own-mongodb>",
+    "messageBrokerHost": "<can-be-replaced-with-cloud-amqp>",
+    "endpoints": {
+        "customerService": "http://localhost:6000",
+        "inventoryService": "http://localhost:3000"
+    }
+}

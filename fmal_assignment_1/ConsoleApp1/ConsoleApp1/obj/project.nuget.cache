@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zf75a/iXSlRypSAgNIgWdEstD2SkWut7PjL7Ubw9fAtF+8PnnL2SmvBrse3cGSAQkziAz4h9rhmw0ZdN4LfjYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rikki\\Documents\\RU\\RU-Projects\\FMAL-Assignment-1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rikki\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

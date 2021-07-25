@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+
+    <title>VEFF Assignment 2</title>
+</head>
+
+<body>
+    <div id="bodyContainer">
+        <div id="timer">
+            Timer:
+            <span id="clock"></span>
+        </div>
+
+        <div id="main">
+            <div id="bombField"></div>
+            <div id="menu">
+                <form id="menuForm">
+                    Rows: <input type="number" value="10" id="Rows" max="40" min="1"><br>
+                    Columns:<input type="number" value="10" id="Columns" max="40" min="1"><br>
+                    Mines: <input type="number" value="10" id="Mines" max="1600" min="1"><br>
+                    <div id="submitContainer">
+                        <input type="submit" id="submit" value="Start game">
+                    </div>
+                    
+
+                </form>
+                <div id="running">
+                    <p>Game in progress</p>
+                </div>
+                <div id="win">
+                    <p>Victory!</p>
+                </div>
+                <div id="lose">
+                    <p>You lose :(</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="java.js"></script>
+</body>
+
+
+</html>

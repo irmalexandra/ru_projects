@@ -1,0 +1,32 @@
+{
+  "name": "eventbackend",
+  "version": "1.0.0",
+  "description": "A backend for event registration applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect-brk=9229 index.js",
+    "test": "node ./node_modules/mocha/bin/mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "events",
+    "REST",
+    "Veff213"
+  ],
+  "author": "Grischa Liebel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "js-sha256": "^0.9.0",
+    "mongoose": "^5.9.4",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.1"
+  }
+}

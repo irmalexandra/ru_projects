@@ -1,0 +1,7 @@
+{
+    "connectionString": "mongodb://order-db/order_db",
+    "messageBrokerHost": "user:pass@message-broker",
+    "endpoints": {
+        "customerService": "http://customer-service"
+    }
+}

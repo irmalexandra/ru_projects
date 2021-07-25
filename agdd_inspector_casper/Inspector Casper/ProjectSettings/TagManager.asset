@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FlashImage
+  - Enemy
+  - Stairs
+  - Vision
+  - RespawnText
+  - YouDiedText
+  - Checkpoint
+  - EnemyShapeCollider
+  - DeadlyProp
+  - SpeechBubble
+  - BaseScene
+  - drawnText
+  - whatText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - CeilingCheck
+  - Enemies
+  - Stairs
+  - MainGround
+  - IgnoreSelf
+  - Torches
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 829424165
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2843798983
+    locked: 0
+  - name: Enemies
+    uniqueID: 972476837
+    locked: 0
+  - name: UI
+    uniqueID: 3036407153
+    locked: 0

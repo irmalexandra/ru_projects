@@ -1,0 +1,4 @@
+planeTypeId,planeType,model,capacity,emptyWeight,maxTakeoffWeight,unitThrust,serviceCeiling,length,height,wingspan
+NABAE146,BAE,146,82,23820,38101,31.1,11000,26.19,8.61,26.34
+NAFokkerF28,Fokker,F28,65,16144,29480,43.9,10700,27.4,8.47,25.07
+NAFokkerF100,Fokker,F100,100,24375,43090,61.6,11000,35.53,8.50,28.08

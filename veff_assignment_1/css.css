@@ -1,0 +1,257 @@
+@media (min-width: 1001px){
+    .person{
+        display: flex;
+        flex-direction: row;
+        margin: 24px 1% 24px 1%;
+        width: 210px;
+        height: 210px;
+
+    }
+
+    main {
+        max-width: 1001px;
+        margin: auto;
+    }
+    #headerMobileContent{
+        display: none;
+    }
+
+    #headerContent{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+    .hireFire{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    h2{
+        margin: 0% 50% 0% 50%
+    }
+
+    body{
+        margin: 0% 0% 0% 0%;
+    }
+
+    header {
+        height: 100px
+    }
+
+    .personLeft {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 2px;
+    }
+    .personRight{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10% 5% 10% 5%;
+    }
+    .personMobile {
+        display: none;
+    }
+
+    
+    
+}
+@media (max-width: 1000px){
+    
+    body{
+        margin: 0% 9% 0% 9%;
+    }
+
+    header {
+        height: 100px;
+    }
+    .person{
+        display: flex;
+        flex-direction: row;
+        margin: 24px 2% 24px 2%;
+        width: 240px;
+        height: 160px;
+    }
+    #headerMobileContent{
+        display: none;
+    }
+
+    #headerContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+    .hireFire{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    h2{
+        margin: 0% 50% 0% 50%
+    }
+
+    .personLeft {
+        font-size: smaller;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 2px;
+    }
+    .personRight{
+        font-size: smaller;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0% 5% 22% 5%;
+    }
+    .personMobile {
+        display: none;
+    }
+
+}
+@media (max-width: 650px){
+    main{
+        flex-direction: column;
+    }
+    header {
+        height: 40px;
+    }
+    img{
+        display: none;
+    }
+    
+    .personLeft, .personRight {
+        display: none;
+    }
+
+    .personMobile {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .name, .role, .department, .joined {
+        align-self: center;
+    }
+    
+    .person{
+        margin: 15px 2% 15px 2%;
+        width: 320px;
+        height: 170px;
+        
+    }
+    #headerMobileContent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+    }
+    
+    #headerContent{
+        display:none;
+    }
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    
+}
+
+footer{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+    text-align: justify;
+}
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+    text-align: right;
+}
+
+img{
+    width: 45px;
+}
+
+
+
+.person, footer, header{
+    background-color: #ADD8E6;
+    border: solid black thin;
+    border-radius: 6px;
+    border-width: 2px;
+    
+}
+
+.name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.field {
+    font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+}
+
+input {
+    border: 0px;
+}
+
+a {
+    color: black;
+}
+
+.burgerMenu {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0px 0px 0;
+    align-self: center;
+}
+
+.hireFire {
+    margin-bottom: 35px;
+}
+
+.footerHeadline {
+    font-size: 135%;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+

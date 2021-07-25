@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid padding">
+    {% include 'filter_sort_games.html' %}
+    <div class="d-flex flex-row flex-wrap justify-content-center">
+    {% if games %}
+        {% for game in games %}
+            {% include 'product_card.html' with product=game %}
+        {% endfor %}
+        {% else %}
+        <h3>No Products match these criteria</h3>
+    {% endif %}
+    </div>
+</div>
+    <script src="{% static 'js/add_to_cart_button.js' %}"></script>
+{% endblock %}
