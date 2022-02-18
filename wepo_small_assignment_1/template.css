@@ -1,0 +1,120 @@
+/* CSS classes here should NOT be changed */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+body {
+    padding: 20px;
+}
+
+.section > .flex-item {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section {
+    border: solid 1px rgba(155, 155, 155, .5);
+    display: flex;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.section > .flex-item:nth-child(1) { background-color: #FAEB4F; }
+.section > .flex-item:nth-child(2) { background-color: #ECB03D; }
+.section > .flex-item:nth-child(3) { background-color: #E07E30; }
+.section > .flex-item:nth-child(4) { background-color: #CD3D7F; }
+.section > .flex-item:nth-child(5) { background-color: #49A7DB; }
+.section > .flex-item:nth-child(6) { background-color: #00A72B; }
+
+.cartoon {
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.section-4 {
+    height: 120px;
+}
+
+.space-invader {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.green {
+    background-image: url('resources/space-invaders-green.png');
+}
+
+.purple {
+    background-image: url('resources/space-invaders-purple.png');
+}
+
+.section-5 {
+    background-color: #000000;
+}
+
+.section-6 {
+    background-image: url('resources/mario-castle.png'), url('resources/mario-angry-sun.png'),
+    url('resources/mario-bg.jpg');
+    background-size: 250px, 100px 100px, contain;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: left 67%, right 20px top 20px, 50% 65%;
+}
+
+.section-6 > .wario {
+    background-image: url('resources/mario-wario.png');
+}
+
+.section-6 > .bowser {
+    background-image: url('resources/mario-bowser.png');
+}
+
+.section-6 > .luigi {
+    background-image: url('resources/mario-luigi.png');
+}
+
+.section-6 > .peach {
+    background-image: url('resources/mario-peach.png');
+}
+
+.section-6 > .mario {
+    background-image: url('resources/mario-tanooki.png');
+}
+
+.section-7 > .carebear-red {
+    background-image: url('resources/carebear-red.gif');
+}
+
+.section-7 > .carebear-blue {
+    background-image: url('resources/carebear-blue.gif');
+}
+
+.section-7 > .carebear-green {
+    background-image: url('resources/carebear-green.gif');
+}
+
+.section-7 > .carebear-pink {
+    background-image: url('resources/carebear-pink.gif');
+}
+
+.section-7 > .carebear-yellow {
+    background-image: url('resources/carebear-yellow.png');
+}
+
+.section-7 {
+    background-image: url('resources/carebear-bg.jpg');
+    background-size: cover;
+}

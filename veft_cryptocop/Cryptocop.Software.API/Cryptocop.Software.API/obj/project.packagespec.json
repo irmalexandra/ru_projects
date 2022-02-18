@@ -1,0 +1,109 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API\\Cryptocop.Software.API.csproj",
+    "projectName": "Cryptocop.Software.API",
+    "projectPath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API\\Cryptocop.Software.API.csproj",
+    "outputPath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj": {
+            "projectPath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj"
+          },
+          "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj": {
+            "projectPath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj"
+          },
+          "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Services\\Cryptocop.Software.API.Services.csproj": {
+            "projectPath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Services\\Cryptocop.Software.API.Services.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[10.1.1, )"
+        },
+        "Microsoft.AspNetCore.Authentication.JwtBearer": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.Abstractions": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.Relational": {
+          "target": "Package",
+          "version": "[3.1.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[6.2.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

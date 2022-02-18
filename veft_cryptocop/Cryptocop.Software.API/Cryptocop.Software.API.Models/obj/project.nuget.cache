@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HEOfYf8e57xlI6B+dWkvTLt5oDIllxZhHWgVBXGP8e/ZnTdN8R7S5Pn412FcLdpsiaU5k19Vkgv7j0ulQxX9fQ==",
+  "success": true,
+  "projectFilePath": "F:\\lokialex\\google_drive\\Personal\\Computer_Science\\2020-3\\T-514-VEFT\\final_assignment\\Cryptocop\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexander\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,39 @@
+version: '3'
+services:
+  cryptopcop-api:
+    build: ./Cryptocop.Software.Api
+    container_name: cryptopcop-api
+    ports:
+      - "5000:80"
+    networks:
+      - "cryptocop-network"
+
+  email-service:
+    build: ./cryptocop-emails
+    container_name: email-service
+    networks:
+      - "cryptocop-network"
+
+  payment-service:
+    build: ./cryptocop-payments
+    container_name: payment-service
+    networks:
+      - "cryptocop-network"
+
+  message-broker:
+    image: rabbitmq:3-management
+    container_name: message-broker
+    hostname: localrabbit
+    networks:
+      - "cryptocop-network"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=mySecretPassword
+      - RABBITMQ_DEFAULT_VHOST=/
+
+networks:
+  cryptocop-network:
+    driver: bridge

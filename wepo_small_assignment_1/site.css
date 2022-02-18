@@ -1,0 +1,124 @@
+/* EDIT BELOW THIS LINE */
+
+/* Add styles for section-1 */
+
+.section-1 {
+
+    justify-content: center;
+    height: 200px;
+}
+.section-1 .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 .flex-item:nth-child(odd){
+    flex: 1 0 0%;
+}
+.section-1 .flex-item:nth-child(even){
+    flex: 0.5 0 0%;
+}
+
+/* Add styles for section-2 */
+.section-2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.section-2 .flex-item:nth-child(5) {
+    flex: 1 0 0%;
+    align-self: flex-end;
+    width: 50%;
+}
+.section-2 .flex-item:nth-child(1) {
+    flex: 1 0 0%;
+    align-self: flex-start;
+    width: 50%;
+}
+
+/* Add styles for section-3 */
+.section-3 {
+    justify-content: center;
+    height: 200px;
+    flex-flow: column wrap;
+}
+.section-3 .flex-item {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    flex: 1 0 50%;
+}
+.section-3 .flex-item:nth-child(1) {
+    flex: 1 0 100%;
+}
+.section-3 .flex-item:nth-child(6) {
+    flex: 1 0 100%;
+}
+
+/* Add styles for section-4 */
+.section-4 {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.section-4 .flex-item {
+    height: 60px;
+    width: 100px;
+}
+
+/* Add styles for section-5 */
+.section-5 {
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.section-5 .space-invader:nth-child(1) {
+    order: 1
+}
+
+/* Add styles for section-6 */
+.section-6 {
+    flex-flow: row-reverse nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* Add styles for section-7 */
+.section-7 {
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.section-7 .carebear-blue {
+    order: 3;
+}
+.section-7 .carebear-green {
+    order: 2;
+}
+.section-7 .carebear-red {
+    order: 1;
+}
+.section-7 .carebear-pink {
+    order: 5;
+}
+.section-7 .carebear-yellow {
+    order: 4;
+    transform: scaleX(-1);
+}
+.section-7 .cartoon:not(.carebear-pink) {
+    flex: 1 0 25%
+}
+
+
+/* Add styles for section-8 */
+.section-8 {
+    flex-flow: column-reverse wrap;
+}
+.section-8 .flex-item {
+    flex: 1 0 0%;
+}
+.section-8 .flex-item:nth-child(1) {
+    flex: 1 0 100%;
+}

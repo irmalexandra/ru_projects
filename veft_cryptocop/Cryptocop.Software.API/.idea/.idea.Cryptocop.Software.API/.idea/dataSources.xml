@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="CryptoDatabase" uuid="e32e6ff4-08a4-4e12-a091-a051542f01cd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://manny.db.elephantsql.com:5432/tsshpjos</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8b7111b-18c2-4b5e-9138-64c2528b2633" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jdwRWcLh9uNJA0U2ccF7XE0BgW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cryptocop-payments" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cryptocop-emails" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b7111b-18c2-4b5e-9138-64c2528b2633" name="Default Changelist" comment="" />
+      <created>1604147268687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604147268687</updated>
+      <workItem from="1604147269983" duration="10549000" />
+      <workItem from="1604202341964" duration="5759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="278" key="#xdebugger.XInspectDialog" timestamp="1604160543793">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="424" y="278" key="#xdebugger.XInspectDialog/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604160543793" />
+    <state x="766" y="299" key="FileChooserDialogImpl" timestamp="1604202522126">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="766" y="299" key="FileChooserDialogImpl/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604202522126" />
+    <state width="1877" height="465" key="GridCell.Tab.0.bottom" timestamp="1604257027408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="465" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257027408" />
+    <state width="1877" height="465" key="GridCell.Tab.0.center" timestamp="1604257027408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="465" key="GridCell.Tab.0.center/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257027408" />
+    <state width="1877" height="465" key="GridCell.Tab.0.left" timestamp="1604257027408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="465" key="GridCell.Tab.0.left/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257027408" />
+    <state width="1877" height="465" key="GridCell.Tab.0.right" timestamp="1604257027408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="465" key="GridCell.Tab.0.right/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257027408" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1604160894218">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604160894218" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1604202341711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604202341711" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cryptocop_emails$app.coverage" NAME="app Coverage Results" MODIFIED="1604244892441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

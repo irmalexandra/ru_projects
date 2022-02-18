@@ -1,6 +1,6 @@
 TARGET=client server 
 PP=g++
-CFLAGS= -Wall -g -std=c++11
+CFLAGS= -Wall -std=c++11
 normal: $(TARGET)
 client: client.cpp
 	$(PP) $(CFLAGS) client.cpp -o client

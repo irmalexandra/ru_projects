@@ -1,0 +1,95 @@
+/* Here below you should make your changes */
+@keyframes static {
+
+    from{ background-image: url(resources/tv.png), linear-gradient(to right, yellow 0%, yellow 12.5%,
+    cyan 12.5%, cyan 25%,
+    lime 25%, lime 37.5%,
+    fuchsia 37.5%, fuchsia 50%,
+    red 50%, red 62.5%,
+    blue 62.5%, blue 75%,
+    black 75%, black 87.5%,
+    white 87.5%, white 100%);
+        background-size: cover, 70% 80%;
+        background-position: center, center left 30px;}
+
+    to { background-image: url(resources/tv.png), linear-gradient(to left, yellow 0%, yellow 12.5%,
+    cyan 12.5%, cyan 25%,
+    lime 25%, lime 37.5%,
+    fuchsia 37.5%, fuchsia 50%,
+    red 50%, red 62.5%,
+    blue 62.5%, blue 75%,
+    black 75%, black 87.5%,
+    white 87.5%, white 100%);
+        background-size: cover, 70% 80%;
+        background-position: center, center left 30px;
+    }
+}
+
+@keyframes level-1 {
+    0% {background-position: center, left 0% top 28%;
+        background-size: cover, auto 74%;
+        background-clip: border-box, content-box;
+        padding: 5px;}
+
+    100% {background-position: center, left 103% top 28%;
+        background-size: cover, auto 74%;
+        background-clip: border-box, content-box;
+        padding: 5px;}
+}
+
+@keyframes move-cartridge {
+    0% {transform: translateX(0%) translateY(0%) perspective(100px) rotateX(45deg) rotateY(30deg);}
+
+    80% {opacity: 0.8}
+
+    100% {transform: translateX(200%) translateY(-400%) perspective(100px) rotateX(45deg) rotateY(30deg);
+        opacity: 0}
+}
+
+.intro {
+    background-image: url(resources/tv.png), url("resources/intro.png");
+    background-size: cover, 80% 74%;
+    background-repeat:  no-repeat;
+    background-position: center, top 27px left 7px;
+}
+
+.level-1 {
+    background-image: url(resources/tv.png), url("resources/stage1.png");
+    background-repeat:  no-repeat;
+    animation: level-1 20s 1 forwards;
+
+}
+
+.static {
+    background-repeat: no-repeat;
+    animation: static 2s infinite;
+}
+
+.move-cartridge {
+    animation: move-cartridge 2s 1 forwards;
+}
+
+#television {
+    height: 350px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#nes-console {
+    background: url("resources/nes.png") no-repeat center / contain;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#nes-cartridge {
+    background: url("resources/contra-cartridge.png") no-repeat center / contain;
+    transform: perspective(100px) rotateX(45deg) rotateY(30deg);
+
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 300px;
+    bottom: 0px;
+}

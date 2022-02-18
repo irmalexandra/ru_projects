@@ -28,6 +28,8 @@
 #include <iostream>
 #include <sstream>
 #include <thread>
+#include <fstream>
+
 
 #ifndef SOCK_NONBLOCK
 #include <fcntl.h>
@@ -35,7 +37,7 @@
 
 #define BACKLOG  5          // Allowed length of queue of waiting connections
 
-// predefined replies from the server
+// predefined replies from the server°
 char SUCCESS_MESSAGE[] = "Command executed successfully\n"; 
 char ERROR_MESSAGE[] = "Error executing command\n"; 
 char MALFORMED_MESSAGE[] = "Unknown command\n"; 
@@ -170,31 +172,47 @@ void clientCommand(int clientSocket, fd_set *openSockets, int *maxfds,
                   char *buffer) 
 {
   std::vector<std::string> tokens;     // List of tokens in command from client
+  std::string command_line = "";       // Entire command line built out of tokens
   std::string token;                   // individual token being parsed
 
   // Split command from client into tokens for parsing
   std::stringstream stream(buffer);
 
   // By storing them as a vector - tokens[0] is first word in string
-  while(stream >> token)
-      tokens.push_back(token);
 
-  // This assumes that the supplied command has no parameters
+  while(stream >> token){
+    tokens.push_back(token);
+  }
+
+    
+//   This assumes that the supplied command has no parameters
   if((tokens.size() >= 2) && (tokens[0].compare("SYS") == 0))
   {
-    if (system(tokens[1].c_str()) != 0) {
-      sendToClient(clientSocket, ERROR_MESSAGE);
+    for (unsigned int i = 1; i < tokens.size(); i++) {
+        command_line += " " + tokens[i]; // Go through all found tokens and creates one large command, excludes SYS
+    } 
+    if (system((command_line +  " > temp_cmd_file.txt").c_str()) != 0) { //Writes the command in a temp file
+        sendToClient(clientSocket, ERROR_MESSAGE);
     }
     else
-    {
-      sendToClient(clientSocket, SUCCESS_MESSAGE);
+    {   
+        system(command_line.c_str()); // To run the command on server side
+        std::ifstream cmd_fs("temp_cmd_file.txt");
+        std::string cmd_output{ std::istreambuf_iterator<char>(cmd_fs), std::istreambuf_iterator<char>() }; // Read file into string variable
+        cmd_fs.close(); // Close file stream so we can delete the file
+        std::remove("temp_cmd_file.txt");
+        sendToClient(clientSocket, cmd_output.c_str());
+        cmd_output.clear();
     }
   }
   else
-  {
+  { 
+
       std::cout << "Unknown command from client:" << buffer << std::endl;
       sendToClient(clientSocket, MALFORMED_MESSAGE);
+
   }
+  command_line.clear();
 }
 
 int main(int argc, char* argv[])
